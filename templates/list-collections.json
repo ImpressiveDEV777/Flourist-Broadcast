@@ -1,0 +1,36 @@
+{
+  "sections": {
+    "main": {
+      "type": "list-collections",
+      "disabled": true,
+      "settings": {
+        "display_type": "all",
+        "title": "Collections",
+        "grid": 4,
+        "rows": 1,
+        "layout_mobile": "carousel"
+      }
+    },
+    "1648063371dc1d3745": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "Shop the Bakery",
+        "heading_font": "font-sans-serif",
+        "description": "<p>The premium ingredients you need. The baking, dry goods and flour you trust. <\/p>",
+        "text_alignment": "center",
+        "link_text": "shop all",
+        "link_url": "",
+        "button_color": "btn--link",
+        "button_style": "hero__btn btn btn--input caps",
+        "featured_collection": "all-bakery",
+        "grid": 4,
+        "rows": 3,
+        "layout_mobile": "carousel"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1648063371dc1d3745"
+  ]
+}

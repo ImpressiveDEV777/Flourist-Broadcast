@@ -1,0 +1,376 @@
+{
+  "sections": {
+    "164825149479399d84": {
+      "type": "section-hero",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/615A7817_6b5685fc-ff5c-4b3c-98a4-9a311db74088.jpg",
+        "bg_position": "center-center",
+        "height": "five-fifty-height-hero",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "title": "Don't put this flour in your pantry.",
+        "description": "FOOD THIS FRESH BELONGS IN YOUR FRIDGE.",
+        "liquid": "",
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "caps--large"
+      }
+    },
+    "16457568641c1519b5": {
+      "type": "section-custom-content",
+      "blocks": {
+        "16457568633c2e0f54-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/615A7817_6b5685fc-ff5c-4b3c-98a4-9a311db74088.jpg",
+            "bg_position": "center-top",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "bg_color": "#f5f2ea",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "24ed5b7d-69e7-4588-b575-58f1d72a1d9f": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "Don't put this flour in your pantry.",
+            "text": "<p>Food this fresh belongs in your fridge. <\/p>",
+            "text_size": 4,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#ffffff",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "16457568633c2e0f54-0",
+        "24ed5b7d-69e7-4588-b575-58f1d72a1d9f"
+      ],
+      "settings": {
+        "height": "screen-height-two-thirds",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "1645756982def2384b": {
+      "type": "section-rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Protect those precious oils.",
+        "heading_font": "font-serif",
+        "text": "<p>Grocery store flour is a casualty of the over industrialization of our food systems. Most flour found in grocery stores is bleached, deconstructed, heated and chemically altered to withstand the lengthy grocery store supply chain. Industrially made flour is the product of highly mechanized food processing that prioritizes efficiency, economy, and shelf-life over flavour and nutrition.<\/p><p>Mass produced, commodified foods dominate the wholesale dry goods industry. Our basic necessities are bought and sold on global markets, just like oil and gas. <\/p><p>Flourist offers an opportunity for you to regain control of your food sources and reclaim freshness in your cupboards, and more importantly, in your fridge. <br\/><br\/>Our stone mills slowly and gently crush organic grains at a low temperature, producing flavourful, aromatic, highly-nutritious flour. Our mills grind the entire grain kernel (germ, bran and endosperm) at once, maintaining all the nutrition and flavour of the whole grain. We do not add chemicals or whitening agents to our flour like large scale commercial millers. There's no hidden ingredients here. Just freshly milled, organic grains. <\/p>",
+        "text_size": 2,
+        "text_columns": 2,
+        "align_text": "text-left",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--large",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#f5f2ea"
+      }
+    },
+    "1645756985a9076b61": {
+      "type": "section-custom-content",
+      "blocks": {
+        "164575698405319163-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/615A8028_db7875cf-d4ce-498d-9f6a-269cc0731cec.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "bg_color": "#f5f2ea",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "164575698405319163-0"
+      ],
+      "settings": {
+        "height": "screen-height-full",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "1645757127ffa506d8": {
+      "type": "section-custom-content",
+      "blocks": {
+        "16457571271a5588f4-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "They Did What To Your Flour?",
+            "text": "",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "text_color": "text-dark",
+            "bg_color": "#f5f2ea",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "d2b0f205-c6bd-478b-aa4b-ba76273df9b0": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "",
+            "text": "<p>Canadian commercial flour producers are permitted to use “bleaching, maturing or dough conditioning agents” in the production of grocery store flour. The list of permitted agents includes: Acetone Peroxide, Ammonium Persulphate, Ascorbic Acid, Azodicarbonamide, Benzoyl Peroxide, Chlorine, and Chlorine Dioxide. The maximum amount of use of these agents is often limited only by the regulation which reads “good manufacturing practice.”<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#f5f2ea",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "16457571271a5588f4-1",
+        "d2b0f205-c6bd-478b-aa4b-ba76273df9b0"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "16457572872badd8a0": {
+      "type": "section-rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "heading_font": "font-serif",
+        "text": "<p>Industrial flour producers remove portions of the grain that could lead to rancidity, namely the germ, which contains nutritious b-vitamins, anti-oxidants and unsaturated fatty acids. This is because flour sold in grocery stores must be shelf-stable—that is, the product must not degrade in quality during the time it takes for the batch to be shipped from the mill to the distribution warehouse and then to the grocery store, where it will likely sit for some time, before ending up in your cupboard.<\/p><p>Even grocery store whole wheat flour lacks the nutrients found in the germ and includes only a percentage of the bran that was originally removed. The Canadian Food Inspection Agency permits up to five per cent of the wheat kernel to be removed from whole wheat flours, “which includes much of the germ and some of the bran—to help reduce rancidity and prolong the shelf life of whole wheat flour.” <\/p><p>The fresh alternative is flour milled to order, with no hidden ingredients. <\/p>",
+        "text_size": 2,
+        "text_columns": 1,
+        "align_text": "text-left",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--large",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff"
+      }
+    },
+    "164718723911e97053": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Resized.jpg",
+        "bg_position": "center-center",
+        "height": "screen-height-three-quarters",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "title": "",
+        "description": "",
+        "liquid": "",
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "caps--large"
+      }
+    },
+    "164575751312ae65ce": {
+      "type": "section-rich-text",
+      "settings": {
+        "subheading": "FRESHNESS, DELIVERED",
+        "title": "No hidden ingredients. Just freshly milled, organic grains.",
+        "heading_font": "font-serif",
+        "text": "<p>Because our flours include wheat germ (which contains nutritious oils), we recommend storing your flour in the fridge or the freezer and buying smaller quantities, more often. <\/p><p>New to our flour? Read our Beginner's Guide to Flourist Flour here.<\/p>",
+        "text_size": 2,
+        "text_columns": 1,
+        "align_text": "text-left",
+        "button_text": "READ THE GUIDE",
+        "button_url": "https:\/\/flourist.com\/blogs\/recipes\/beginners-guide-to-flours",
+        "button_color": "btn--primary",
+        "button_style": "hero__btn btn btn--input caps",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#f3f0ec"
+      }
+    },
+    "164718723250d78c20": {
+      "type": "page-faq",
+      "blocks": {
+        "164718723275df258d-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Explore more"
+          }
+        },
+        "164718723275df258d-1": {
+          "type": "question",
+          "settings": {
+            "title": "Our Mills  ->",
+            "content": "<p>At Flourist, we use two different stone mills to mill our flours. When we started, we used an Austrian stone mill, hand crafted from stone and pine wood by the Osttiroler Getreidemьhlen Green company in East Tyrolia, Austria. <\/p><p>The Green family have been building stone flour mills for bakeries and restaurants around the world for more than 100 years. Except for the electric motor, their stone mill technology is based on an ancient, proven method of transforming whole grain wheat into delicious, aromatic flour. Two thick, heavy stones with tapered grooves carved in them rotate against each other, slowly grinding whole kernels into fine flour. The slow-moving stones are key to keeping the flour temperature low, ensuring minimal effect on the end product. <br\/><br\/>Our second Osttiroler mill came when we opened the first and only bakery in Vancouver to use flour stone-milled on site exclusively. This mill is positioned in the centre our Commercial Street space, behind glass windows, and provides all the flour needed for our bakery production. <br\/><br\/>In 2021, we added third mill to our operation, a larger mill from New American Stone Mills in Vermont. Andrew Heyn and the team at New American have created a modern, industrial take on the same ancient milling technology the Green family has used for the last century. Each machine uses, as its primary feature, millstones fashioned from gray Barre granite. Etched with a series of furrows, the stones cut the wheat with a scissor-like action as the grain goes round the stone. A kernel of grain, making one rotation, is cut 36 times by the pair of millstones. The mill produces a fine flour that retains (without separating) the full properties of the wheat, including germ, oil and bran.<\/p>"
+          }
+        },
+        "164718723275df258d-2": {
+          "type": "question",
+          "settings": {
+            "title": "Sifted  vs. Whole Grain Flour ->",
+            "content": "<p>We mill the entire wheat kernel in our stone mill. With our 100% whole grain flours, you get exactly that, 100% of the grain, crushed into a fine and beautiful flour.<br\/><br\/>Flourist sifted flours also start out as crushed 100% whole grains. After the slow-moving stones crush the grains, the flour passes through fine screens to remove the larger bran and germ particles leaving beautiful, soft and richly textured flour. <br\/><br\/>A stone-milled sifted flour produced in this way contains more nutritious and delicious whole grain elements than a whole grain flour produced in a commercial milling environment. This is because commercial millers remove the bran and germ completely before milling the grain. <\/p>"
+          }
+        },
+        "164718723275df258d-3": {
+          "type": "question",
+          "settings": {
+            "title": "Storing Fresh Flour ->",
+            "content": "<p>Unlike processed grocery store flour, our freshly milled flours contain all the natural oils present in the whole grains we mill. We don't add anything to your flour to preserve it, which is why we don't recommend to store it in your pantry. <br\/><br\/><strong>Fridge or Freezer? <br\/><\/strong><br\/>Both the fridge and the freezer do a great job of preserving the integrity of the natural oils found in our flour. What's most important is that the fresh flours are kept cool. <br\/><br\/>Store your flour in the fridge or the freezer for up to 6 months. The flour is perfectly safe and edible after that, but you may find that the flour loses some of its natural flavours and instead tastes a bit like the inside of your fridge. <br\/><br\/>No space in the fridge? We get it. If you need to store your flour at room temperature, we suggest a cool, dark and dry spot. In light of space challenges, our flour will be fine stored at room temperature for short periods. We recommend to use your flour within 4-6 weeks for best results if keeping it at room temperature. <br\/><br\/><strong>What do I use to store it in? <br\/><\/strong><br\/>You can keep the flour right in our bags, just roll the top down and seal well with a clip. You could also enclose the paper bag within a plastic bag. Or, take it a step further and decant your flour into a large glass jar or plastic canister. <br\/><br\/>Preserving your flour in the fridge is an important step to getting the most out of our freshly milled flour. It's such a great way to ensure you'll be taking advantage of all the flavour and nutrition inherent in the grains we mill. <br\/><\/p><p>We recommend that you let your flour come to room temperature if you're doing any kind of leavened baking. If you're baking pies, the cold flour will work to your advantage.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "164718723275df258d-0",
+        "164718723275df258d-1",
+        "164718723275df258d-2",
+        "164718723275df258d-3"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "height": "margin--zero",
+        "text_color": "text-dark",
+        "bg_color": "#f3f0ec"
+      }
+    },
+    "1645757515fa5e5742": {
+      "type": "section-collection-carousel",
+      "settings": {
+        "heading": "SHOP OUR FLOURS",
+        "description": "",
+        "text_alignment": "inline",
+        "link_text": "Shop All",
+        "link_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "hero__btn btn btn--input caps",
+        "featured_collection": "freshly-milled-flour"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff"
+      }
+    },
+    "164575728996d28aaa": {
+      "type": "section-custom-content",
+      "disabled": true,
+      "blocks": {
+        "d8ff7381-8456-4775-98f5-03757438f56a": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "Flourist guarantees freshness by milling flour to order. We never stock flour in our warehouse.",
+            "text": "",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#f5f2eb",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "16457572892934d910-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mill2_6b906e1f-3e6f-4d82-978b-3ec32433711c.jpg",
+            "bg_position": "right-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "bg_color": "#f5f2ea",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "d8ff7381-8456-4775-98f5-03757438f56a",
+        "16457572892934d910-0"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    }
+  },
+  "order": [
+    "164825149479399d84",
+    "16457568641c1519b5",
+    "1645756982def2384b",
+    "1645756985a9076b61",
+    "1645757127ffa506d8",
+    "16457572872badd8a0",
+    "164718723911e97053",
+    "164575751312ae65ce",
+    "164718723250d78c20",
+    "1645757515fa5e5742",
+    "main",
+    "164575728996d28aaa"
+  ]
+}

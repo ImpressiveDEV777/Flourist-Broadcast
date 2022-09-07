@@ -1,0 +1,204 @@
+<!-- /sections/section-button-row.liquid -->
+
+{%- liquid
+  assign border_class = 'column--borderless'
+  if section.settings.width == ''
+    assign border_class = 'column--border'
+  elsif section.settings.width == 'wrapper--narrow' or section.settings.width == 'wrapper'
+    assign border_class = ''
+  endif
+  
+  assign animation_anchor = "[data-section-id='" | append: section.id | append: "']"
+-%}
+
+{%- capture slider_attributes -%}
+  data-slider="{{ section.id }}" data-infinite="false" data-cell-align="left" data-group-cells="true" data-dots="hidden" data-arrows="true" data-arrow-position-middle data-watch-css="true"
+{%- endcapture -%}
+
+<div class="section-buttons"
+  style="--bg: {{ section.settings.bg_color }};"
+  data-section-id="{{ section.id }}">
+  <div class="{{ section.settings.width }}">
+
+    {%- if section.settings.title != '' -%}
+      <h2 class="grid__heading" style="--text: {{ section.settings.title_color }}">{{ section.settings.title }}</h2>
+    {%- endif -%}
+
+    <div class="grid__outer">
+      <div class="{{ section.settings.align_text }}">    
+        {%- for block in section.blocks -%}
+          {%- if block.settings.title != '' -%}
+          {% if block.settings.button_url == request.path or current_tags contains block.settings.tag %}
+            {% assign button_color = section.settings.button_color_active %}
+            {% assign button_style = section.settings.button_style_active %}
+          {% else %}
+            {% assign button_color = section.settings.button_color %}
+            {% assign button_style = section.settings.button_style %}
+          {% endif %}
+            <a href="{% if block.settings.tag != blank %}{{ blog.url }}/tagged/{{ block.settings.tag | handle }}{% else %}{{ block.settings.button_url }}{% endif %}" class="{{ button_style }} {{ button_color }}">
+              {{- block.settings.title -}}
+            </a>
+          {%- endif -%}
+        {% endfor %}
+      </div>
+    </div>
+
+    {%- if section.blocks.size == 0 -%}
+      {%- render 'no-blocks' -%}
+    {%- endif -%}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Button row",
+    "class": "index-section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "header",
+        "content": "Style"
+      },
+      {
+        "type": "color",
+        "id": "title_color",
+        "label": "Title color",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background",
+        "default": "#ffffff"
+      },
+      {
+        "type": "select",
+        "id": "align_text",
+        "label": "Text alignment",
+        "default": "text-left",
+        "options": [
+          {
+            "value": "text-left",
+            "label": "Left"
+          },
+          {
+            "value": "text-center",
+            "label": "Centered"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "width",
+        "label": "Width",
+        "default": "wrapper--full",
+        "options": [
+          {"value": "wrapper", "label": "Normal"},
+          {"value": "wrapper--narrow", "label": "Narrow"},
+          {"value": "wrapper--full", "label": "Wide"},
+          {"value": "", "label": "Wide with borders"}
+        ]
+      },
+      {
+        "type": "select",
+        "id": "button_color",
+        "label": "Color",
+        "default": "btn--neutral",
+        "options": [
+          {"value": "btn--primary", "label": "Bright accent"},
+          {"value": "btn--secondary", "label": "Secondary accent"},
+          {"value": "btn--link", "label": "Link color"},
+          {"value": "btn--neutral", "label": "Text color"},
+          {"value": "btn--black", "label": "Black"},
+          {"value": "btn--white", "label": "White"}
+        ]
+      },
+      {
+        "type": "select",
+        "id": "button_style",
+        "label": "Style",
+        "default": "caps--large",
+        "options": [
+          {"value": "caps--large", "label": "Capitalized text"},
+          {"value": "hero__btn btn btn--input caps", "label": "Small button"},
+          {"value": "hero__btn btn btn--large caps", "label": "Large button"},
+          {"value": "hero__btn btn btn--input btn--outline caps", "label": "Small outline button"},
+          {"value": "hero__btn btn btn--large btn--outline caps", "label": "Large outline button"}
+        ]
+      },
+      {
+        "type": "select",
+        "id": "button_color_active",
+        "label": "Active button Color",
+        "default": "btn--neutral",
+        "options": [
+          {"value": "btn--primary", "label": "Bright accent"},
+          {"value": "btn--secondary", "label": "Secondary accent"},
+          {"value": "btn--link", "label": "Link color"},
+          {"value": "btn--neutral", "label": "Text color"},
+          {"value": "btn--black", "label": "Black"},
+          {"value": "btn--white", "label": "White"}
+        ]
+      },
+      {
+        "type": "select",
+        "id": "button_style_active",
+        "label": "Active button Style",
+        "default": "caps--large",
+        "options": [
+          {"value": "caps--large", "label": "Capitalized text"},
+          {"value": "hero__btn btn btn--input caps", "label": "Small button"},
+          {"value": "hero__btn btn btn--large caps", "label": "Large button"},
+          {"value": "hero__btn btn btn--input btn--outline caps", "label": "Small outline button"},
+          {"value": "hero__btn btn btn--large btn--outline caps", "label": "Large outline button"}
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "button",
+        "name": "Button",
+        "settings": [
+          {
+            "type":"text",
+            "id":"title",
+            "label":"Text",
+            "default":"Learn more"
+          },
+          {
+            "type":"url",
+            "id":"button_url",
+            "label":"Link"
+          },
+          {
+            "type":"text",
+            "id":"tag",
+            "label":"Tag",
+            "info":"If used on blog page"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Button row",
+        "category": "Custom",
+        "blocks": [
+          {
+            "type": "button"
+          },
+          {
+            "type": "button"
+          },
+          {
+            "type": "button"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

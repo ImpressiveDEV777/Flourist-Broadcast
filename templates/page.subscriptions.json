@@ -1,0 +1,609 @@
+{
+  "sections": {
+    "1647102195fc584822": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/615A8023_2f6abab2-d759-44a5-855a-91df6152d3bd.jpg",
+        "bg_position": "center-center",
+        "height": "screen-height-three-quarters",
+        "overlay_opacity": 5,
+        "overlay_color": "#000000",
+        "title": "Join our Rewards Club",
+        "description": "EARN POINTS FOR EVERY PURCHASE",
+        "flex_align": "align--top-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "caps--large"
+      }
+    },
+    "164735297348482755": {
+      "type": "section-button-row",
+      "blocks": {
+        "1647352973a49d07e8-1": {
+          "type": "button",
+          "settings": {
+            "title": "Join Now",
+            "button_url": "shopify:\/\/collections",
+            "tag": ""
+          }
+        },
+        "1647352973a49d07e8-0": {
+          "type": "button",
+          "settings": {
+            "title": "Sign in",
+            "button_url": "shopify:\/\/pages\/about-us",
+            "tag": ""
+          }
+        }
+      },
+      "block_order": [
+        "1647352973a49d07e8-1",
+        "1647352973a49d07e8-0"
+      ],
+      "settings": {
+        "title": "A healthy community is built on healthy food. Join our Rewards Club and earn points for every purchase you make. Refer a friend, leave a review, or simply shop for your favourite items.",
+        "title_color": "#503629",
+        "bg_color": "#f5f2ea",
+        "align_text": "text-center",
+        "width": "wrapper--full",
+        "button_color": "btn--link",
+        "button_style": "hero__btn btn btn--input caps",
+        "button_color_active": "btn--link",
+        "button_style_active": "hero__btn btn btn--input caps"
+      }
+    },
+    "1647354151bc871eab": {
+      "type": "section-columns",
+      "blocks": {
+        "164735415122a3060a-0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2EDCD505-E4FB-4A13-8542-D7F6F3E7FC92_1_105_c.jpg",
+            "bg_position": "center-center",
+            "title": "Join the Club",
+            "text": "",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "164735415122a3060a-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/615A7644_196b6fe2-3bfd-4f9e-8a26-02c708fb982b.jpg",
+            "bg_position": "center-center",
+            "title": "Earn points",
+            "text": "",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--link",
+            "button_style": "hero__btn btn btn--input caps",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "164735415122a3060a-2": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/615A7837_13a1caf6-dc5c-4f39-b3a2-07608cf733da.jpg",
+            "bg_position": "center-center",
+            "title": "Redeem rewards",
+            "text": "",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "164735415122a3060a-0",
+        "164735415122a3060a-1",
+        "164735415122a3060a-2"
+      ],
+      "settings": {
+        "title": "",
+        "bg_color": "#ffffff",
+        "align_text": "text-left",
+        "width": "wrapper--full",
+        "equalize_height": true,
+        "photo_aspect_ratio": 0.7,
+        "enable_image": true
+      }
+    },
+    "164710319218ee81bb": {
+      "type": "section-custom-content",
+      "disabled": true,
+      "blocks": {
+        "16471031922e0b3445-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/615A7695_7574ae82-d007-4310-a318-39cf30932cc2.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "bg_color": "#f5f2ea",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "16471031922e0b3445-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "OUR PHILOSOPHY",
+            "title": "Our transparent approach.",
+            "text": "<p>Traceable food is trustworthy food. Clarity begets health. We focus on grains because that’s where we can make the most impact. It’s a cornerstone of our kitchens. Grains allow us to go big—to give a lot of people access to nourishing food. <\/p><p>We work exclusively with Canadian family farms to source premium local grains and beans. Then we stone mill the grain in-house, to order.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#ffffff",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "16471031922e0b3445-0",
+        "16471031922e0b3445-1"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "1647105001db0c3955": {
+      "type": "section-custom-content",
+      "blocks": {
+        "1647105001e51c9b45-0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "bg_color": "#f5f2ea",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "1647105001e51c9b45-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "",
+            "text": "<p>Earn points for every dollar you spend. Want to make it even easier? Create a subscription for your favourite items. They'll arrive on your doorstep automatically, and your points will add up on auto-pilot too. <\/p>",
+            "text_size": 4,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "text_color": "text-dark",
+            "bg_color": "#f5f2ea",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "1647105001e51c9b45-0",
+        "1647105001e51c9b45-1"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": false,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "1647104181b611ff12": {
+      "type": "section-custom-content",
+      "disabled": true,
+      "blocks": {
+        "1647104181f9dde00f-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "STRONGER TOGETHER",
+            "title": "Everybody's An Artisan",
+            "text": "<p>Our vertically-integrated supply chain connects Canadian farmers directly to people who value quality and craft. This isn’t just about a beautiful loaf of bread (but damn, is bread delicious). It’s about protecting our farmland and creating food security for future generations.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#ffffff",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "1647104181f9dde00f-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B753727F-DC26-4240-AD10-B4BAA4D80A60_1_105_c.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "bg_color": "#f5f2ea",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "1647104181f9dde00f-1",
+        "1647104181f9dde00f-0"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "1647104645cfe7a2c3": {
+      "type": "section-custom-content",
+      "disabled": true,
+      "blocks": {
+        "164710464535e3ae8e-0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "bg_color": "#f5f2ea",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "164710464535e3ae8e-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "",
+            "text": "<p>In 2013, two friends set out to create a company that celebrated grain and bean farmers, while providing a much needed connection to higher quality, fresher flour and dry goods. Flourist was co-founded by Janna Bishop and Shira McDermott, a clothing designer and food industry pro respectively, to fill what they saw as a gap in the growing farm to table movement, and to provide transparency in a whole new, untouched food category.<\/p>",
+            "text_size": 5,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "text_color": "text-dark",
+            "bg_color": "#f5f2ea",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "164710464535e3ae8e-0",
+        "164710464535e3ae8e-1"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "custom-content-1": {
+      "type": "section-custom-content",
+      "disabled": true,
+      "blocks": {
+        "image-1-1": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "About Us",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "bg_color": "#f5f2ea",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "image-1-1"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": false,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff"
+      }
+    },
+    "custom-content-2": {
+      "type": "section-custom-content",
+      "disabled": true,
+      "blocks": {
+        "image-2-1": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "bg_color": "#f5f2ea",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "text-2-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "Introducing",
+            "title": "Text block",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#f5f2ea",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "image-2-1",
+        "text-2-1"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": false,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "custom-content-3": {
+      "type": "section-custom-content",
+      "disabled": true,
+      "blocks": {
+        "text-3-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "Introducing",
+            "title": "Text block",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#f5f2ea",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "image-3-1": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "bg_color": "#f5f2ea",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "text-3-1",
+        "image-3-1"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": false,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "custom-content-4": {
+      "type": "section-custom-content",
+      "disabled": true,
+      "blocks": {
+        "text-4-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "Introducing",
+            "title": "Text block",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#f5f2ea",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "text-4-1"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": false,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "custom-content-6": {
+      "type": "section-custom-content",
+      "disabled": true,
+      "blocks": {
+        "product-6-1": {
+          "type": "product",
+          "settings": {
+            "title": "Starter Flour Bundle",
+            "product": "starter-flour-bundle",
+            "text_color": "text-dark",
+            "bg_color": "#f5f2ea"
+          }
+        },
+        "review-6-1": {
+          "type": "review",
+          "settings": {
+            "title": "Joan B.",
+            "subheading": "First time customer",
+            "review": "<p>We can’t believe the difference that Flourist flour has made to our bread-maker breads, our muffins and loaves! We can’t get enough of your flour…it is truly remarkable and makes the world of difference in the texture and taste of everything we bake. And we are not huge bakers, so if we notice a difference, then everyone will notice the difference their first time!<\/p>",
+            "review_url": "https:\/\/flourist.com\/pages\/reviews",
+            "review_link_name": "READ MORE REVIEWS",
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#f3efec"
+          }
+        }
+      },
+      "block_order": [
+        "product-6-1",
+        "review-6-1"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": true,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "16471076857f43ddb7": {
+      "type": "section-hero",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Brown_Backgound.jpg",
+        "bg_position": "center-center",
+        "height": "screen-height-one-half",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "title": "Meet our farmers.",
+        "description": "GET ACQUAINTED WITH YOUR FOOD.",
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "READ MORE",
+        "link": "shopify:\/\/pages\/our-farmers",
+        "button_color": "btn--link",
+        "button_style": "hero__btn btn btn--large caps"
+      }
+    },
+    "1647358877959fa8f6": {
+      "type": "section-split-hero",
+      "settings": {
+        "image_height": "screen-height-full",
+        "mobile_layout": "stacked",
+        "image_desktop_left": "shopify:\/\/shop_images\/615A6622.jpg",
+        "bg_position_left": "center-center",
+        "image_desktop_right": "shopify:\/\/shop_images\/615A7705.jpg",
+        "bg_position_right": "center-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 15,
+        "title": "The Best of our Bakery",
+        "description": "Subscriptions are here.",
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "LEARN MORE",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "hero__btn btn btn--large caps"
+      }
+    }
+  },
+  "order": [
+    "1647102195fc584822",
+    "164735297348482755",
+    "1647354151bc871eab",
+    "164710319218ee81bb",
+    "1647105001db0c3955",
+    "1647104181b611ff12",
+    "1647104645cfe7a2c3",
+    "custom-content-1",
+    "main",
+    "custom-content-2",
+    "custom-content-3",
+    "custom-content-4",
+    "custom-content-6",
+    "16471076857f43ddb7",
+    "1647358877959fa8f6"
+  ]
+}

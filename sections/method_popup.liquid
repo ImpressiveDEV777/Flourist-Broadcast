@@ -1,0 +1,49 @@
+{%- if template contains 'product' or template contains 'collection' -%}
+<div class="methodModal_container_p">
+  <div id="methodModal"  class="">
+    <div class="close_method_modal_p">{% render 'icon-close-thin' %}</div>
+    <h6 class="type-heading-1 tc">{{ settings.modal_title_p }}:</h6><br>
+    <div class="method_selector_p">
+      <div class="local_p">
+        <h4>{{ settings.method1_title_p }}</h4>
+        ({{ settings.method1_detail_p }})
+        <input type="text" id="postalcode" name="postalcode" value="" placeholder="Enter Postal Code">
+        <p class="post_alert_p">{{ settings.method1_error_p }}</p>
+      </div>
+      <div class="pickup_p">
+        <h4>{{ settings.method2_title_p }}</h4>
+        ({{ settings.method2_detail1_p }})
+        <br>
+        ({{ settings.method2_detail2_p }})
+      </div>
+      <div class="mail_p">
+        <h4>{{ settings.method3_title_p }}</h4>
+        {% if settings.method3_detail_p != blank %}
+        ({{ settings.method3_detail_p }})
+        {% endif %}
+      </div>
+    </div>
+    <button type="button" class="btn caps--large" id="method_confirm">CONFIRM</button>
+  </div>
+</div>
+{%- endif -%}
+
+{%- if template contains 'cart' -%}
+<div class="tipModal_container_p">
+  {%- include 'cart-tip' -%}
+</div>
+{%- endif -%}
+
+{% schema %}
+  {
+    "name": "Method Modal",
+    "settings": [
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

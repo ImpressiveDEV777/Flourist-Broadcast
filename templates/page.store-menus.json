@@ -1,0 +1,181 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-center",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#f5f2ea"
+      }
+    },
+    "16486831812fb82af6": {
+      "type": "section-custom-content",
+      "blocks": {
+        "16486831813bad6545-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/917351F7-683B-4B8C-B246-7D4FAEDB6C72_1_105_c.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "bg_color": "#f5f2ea",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "16486831813bad6545-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "EDIBLE TRANSPARENCY",
+            "title": "Our Menus",
+            "text": "<p>We bake using freshly milled flour milled in-house exclusively. We don't use any white flour in any of our baking. <br\/><br\/>In addition to freshly milled flour and our premium dry goods for your home pantry, the Flourist Mill + Bakery serves our favourite things to eat. The menu is inspired by the foods we ate and enjoyed in our childhoods, from our grandmothers' prairie kitchens to our family dinner tables. This is the food we want to eat everyday and we hope you will too. <\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#ffffff",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "16486831813bad6545-0",
+        "16486831813bad6545-1"
+      ],
+      "settings": {
+        "height": "five-fifty-height-hero",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "16486835538cb85de7": {
+      "type": "section-rich-text",
+      "settings": {
+        "subheading": "OPEN 9AM-5PM M-F, 8AM-6PM WEEKENDS",
+        "title": "Commercial Street Menu",
+        "heading_font": "font-serif",
+        "text": "<p><strong>BREAD<br\/><\/strong><br\/><strong>Sourdough Boule - 8<br\/><\/strong>The classic Flourist boule made with 100% Red Spring Wheat Flour.<br\/><br\/><strong>Sourdough Pan Loaf - 8<br\/><\/strong>The classic Flourist pan loaf made with 100% Red Spring Wheat Flour.<br\/><br\/><strong>Whole Wheat Sourdough Pan Loaf - 8<br\/><\/strong>A soft, flavourful 100% whole wheat pan loaf.<br\/><br\/><strong>Olive Loaf - 10<br\/><\/strong>Our 100% Red Spring Wheat Flour sourdough with a mixture of Kalamata and Castelvetrano olives.<br\/><br\/><strong>Olive Fougasse - 12<br\/><\/strong>Our 100% Red Spring Wheat Flour sourdough with a mixture of Kalamata and Castelvetrano olives made into a Fougasse with olive oil and salt.<br\/><br\/><strong>Seeded Pan Loaf - 10<br\/><\/strong>100% Whole Grain Spelt, 100% seedy.<br\/><br\/><strong>Cinnamon Raisin Bread - 10<br\/><\/strong>Available Saturday and Sunday only.<br\/><br\/><strong>Signature Baguette - 5<br\/><\/strong>Made with 60% Whole Grain Red Spring Wheat Flour, 40% Whole Grain Red Fife Flour, salt, sourdough starter. <br\/><br\/><strong>Potato Buns - 2<br\/><\/strong>A soft potato bun, topped with seeds.<br\/><br\/><strong>GRAIN SALADS<\/strong><br\/><br\/><strong>Daily Feature - 6 \/ 8<br\/><\/strong>See the case for today’s offering.<br\/><br\/><strong>SAVOURY PASTRIES<\/strong><br\/><br\/><strong>Kale and Cheddar Scones - 5<br\/><\/strong>Aged cheddar and kale in a buttery, whole grain scone.<br\/><br\/><strong>Pizza Buns- 6<br\/><\/strong>Aged cheddar and gruyere cheese, sourdough brioche dough, house made organic tomato jam. <br\/><br\/><strong>Breakfast Bun - 7<br\/><\/strong>An egg, nestled into a soft brioche bun, topped with cheese. <br\/><br\/><strong>Daily Sandwich - 12<\/strong><br\/>Classic Hummus, roasted vegetables, arugula, and Applewood Smoked Cheddar on house-made focaccia. <br\/><br\/><strong>Potato and Cheese Galette - 8<\/strong><br\/>Our classic, bestselling savoury pastry is a must try. Golden potatoes and cheese encased in a flaky pastry crust.<br\/><br\/><strong>Daily Flatbread - 6<br\/><\/strong>Our flatbread changes daily. Our team creates one vegetarian and one vegan option everyday.<br\/><br\/><strong>Daily Quiche - 10<br\/><\/strong>Our vegetarian quiche changes daily. Our team creates these classic snacks with seasonal vegetables. <br\/><\/p><p><strong>SWEETS<\/strong><br\/><br\/><strong>Best Ever Chocolate Chip Cookie - 4<br\/><\/strong>Our classic cookie. Made with Whole Grain Red Fife Flour and Valrhona Chocolate.<br\/><strong><br\/>Vegan Tahini Chocolate Cookie - 4<br\/><\/strong>Valrhona Chocolate, Whole Grain Red Fife flour, tahini and sesame seeds. The best vegan cookie in the city. <br\/><strong><br\/><br\/>Oatmeal Raisin Cookie - 4<br\/><\/strong>A comforting Oatmeal Cookie made with Whole Grain Red Spring Wheat Flour.<br\/><br\/><strong>Hazelnut Jam Cookie - 3<\/strong><br\/>Hazelnut cookie base with a dollop of seasonal jam. Made with our Whole Grain Einkorn Flour.<br\/><br\/><strong>Butter Tart Bar - 5<\/strong><br\/>The Canadian classic in bar form.<br\/><br\/><strong>Sourdough Cinnamon Buns - 5<br\/><\/strong>Sourdough cinnamon bun with cream cheese icing.<br\/><br\/><strong>Apple Cinnamon Turnover - 6<br\/><\/strong>Apples and cinnamon come together in this epic version of our favourite childhood pastry.<br\/><br\/><strong>Daily Cake - 7<br\/><\/strong>Seasonal cake sold by the slice. <br\/><br\/><strong>Sweet Galette - 8<br\/><\/strong>Pastry made with our house-milled Organic Sifted Red Spring Wheat Flour. Inspired by what's in season. <br\/><br\/><strong>Cookie Tart - 8<br\/><\/strong>Our take on a gâteau basque. Made with Einkorn flour, custard and seasonal fruit.<br\/><br\/><strong>Fruit Tart - 10<br\/><\/strong>Spelt pastry dough with seasonal fillings like lemon, rhubarb or summer berries.<\/p><p>Full sized galettes are available by pre-order. Please <a href=\"mailto:%20info@flourist.com\" target=\"_blank\">inquire.<br\/><\/a><strong><br\/>DRINKS<\/strong><br\/><br\/><strong>Espresso - 3.75<br\/><\/strong>JJ Bean Espresso.  Locally roasted. <br\/><br\/><strong>Americano - 3.75<br\/><\/strong>JJ Bean Espresso.  Locally roasted. <br\/><br\/><strong>Cappuccino - 4.50<\/strong><br\/>JJ Bean Espresso. Locally roasted beans and full fat milk. Oat milk available. <br\/><br\/><strong>Latte - 4.95<br\/><\/strong>JJ Bean Espresso. Locally roasted beans and full fat milk. Oat milk available.  <br\/><br\/><strong>Mocha - 5.00 \/ 5.75<br\/><\/strong>JJ Bean Espresso. Locally roasted beans and full fat milk with chocolate sauce. Oat milk available. <br\/><br\/><strong>Tea - 3.75<br\/><\/strong>Loose leaf teas by Vancouver's 05 Tea. Earl Grey, English Breakfast, Peppermint, and Hojicha. Rooibos from Gathering Places Trading. <br\/><br\/><strong>Hibiscus Lemonade - 5<br\/><\/strong>Hibiscus tea and lemonade blended to perfection. <br\/><br\/><strong>Black Tea Lemonade - 5<br\/><\/strong>English Breakfast tea and lemonade blended to perfection. <br\/><br\/><strong>Beer on Tap - 8<br\/><\/strong>Rotating assortment. 12 oz.<br\/><br\/><strong>Tality Kombucha - 7<br\/><\/strong>The perfect balance of sweet and tart in a fun, fizzy glass. 12 oz. <br\/><br\/><strong>Wine by the Glass - 10<br\/><\/strong>White, Red and Rosé. Always something fun. 5 oz. <\/p>",
+        "text_size": 2,
+        "text_columns": 2,
+        "align_text": "text-left",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--large",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#f3f0ec"
+      }
+    },
+    "1648738992a408dfe5": {
+      "type": "section-map",
+      "settings": {
+        "height": "screen-height-one-half",
+        "title": "Commercial Street",
+        "address": "<p>3433 Commercial Street<br\/>Vancouver, Canada<\/p><p>Open 9AM-5PM M-F<br\/>8AM-6PM Weekends<\/p>",
+        "button": "Directions",
+        "text_color": "text-dark",
+        "bg_color": "#fbfbfb",
+        "api_key": "",
+        "map_address": "3433 Commercial Street Vancouver BC",
+        "zoom": 11,
+        "style": "light",
+        "image": "shopify:\/\/shop_images\/615A7705_52906f1e-997d-4128-86e3-0a4e92649526.jpg",
+        "bg_position": "center-center",
+        "enable_latlong": false,
+        "lat": "",
+        "long": ""
+      }
+    },
+    "1648738229850c4c33": {
+      "type": "section-rich-text",
+      "settings": {
+        "subheading": "OPEN DAILY 11AM - 4PM",
+        "title": "Strathcona Menu",
+        "heading_font": "font-serif",
+        "text": "<p><strong>BREAD<br\/><\/strong><br\/><strong>Sourdough Boule - 8<br\/><\/strong>The classic Flourist boule made with 100% Red Spring Wheat Flour.<br\/><br\/><strong>Sourdough Pan Loaf - 8<br\/><\/strong>The classic Flourist pan loaf made with 100% Red Spring Wheat Flour.<br\/><br\/><strong>Whole Wheat Sourdough Pan Loaf - 8<br\/><\/strong>A soft, flavourful 100% whole wheat pan loaf.<br\/><br\/><strong>Olive Loaf - 10<br\/><\/strong>Our 100% Red Spring Wheat Flour sourdough with a mixture of Kalamata and Castelvetrano olives.<br\/><br\/><strong>Seeded Pan Loaf - 10<br\/><\/strong>100% Whole Grain Spelt, 100% seedy.<br\/><br\/><strong>Cinnamon Raisin Bread - 10<br\/><\/strong>Available Saturday and Sunday only.<br\/><br\/><strong>Signature Baguette - 5<br\/><\/strong>Made with 60% Whole Grain Red Spring Wheat Flour, 40% Whole Grain Red Fife Flour, salt, sourdough starter. <br\/><br\/><strong>GRAIN SALADS<\/strong><br\/><br\/><strong>Daily Feature - 9<br\/><\/strong>See the fridge for our popular Epic Wheat Berry and Chickpea Salad and our vegan Roasted Potato and Chickpea Salad. <br\/><br\/><strong>SAVOURY PASTRIES<\/strong><br\/><br\/><strong>Savoury Hand Pie - 7<br\/><\/strong>A delicious savoury hand pie made with our signature spelt pastry dough. Ask the team about the current feature filling.<br\/><br\/><strong>Potato and Cheese Galette - 8<\/strong><br\/>Our classic, best selling savoury pastry is a must try. Golden potatoes, scallions and our signature cheese mixture encased in a flaky pastry crust.<br\/><br\/><strong>SWEETS<\/strong><br\/><br\/><strong>Best Ever Chocolate Chip Cookie - 4<br\/><\/strong>Our classic cookie. Made with Whole Grain Red Fife Flour and Valrhona Chocolate.<br\/><strong><br\/>Vegan Tahini Chocolate Cookie - 4<br\/><\/strong>Valrhona Chocolate, Whole Grain Red Fife flour, tahini and sesame seeds. The best vegan cookie in the city. <strong><br\/><br\/>Oatmeal Raisin Cookie - 4<br\/><\/strong>A comforting Oatmeal Cookie made with Whole Grain Red Spring Wheat Flour.<br\/><br\/><strong>Hazelnut Jam Cookie - 3<\/strong><br\/>Hazelnut cookie base with a dollop of seasonal jam. Made with our Whole Grain Einkorn Flour.<br\/><br\/><strong>Butter Tart Bar - 5<\/strong><br\/>The Canadian classic in bar form.<br\/><br\/><strong>Sourdough Cinnamon Buns - 5<br\/><\/strong>Sourdough cinnamon bun with cream cheese icing.<br\/><br\/><strong>Apple Cinnamon Turnover - 6<br\/><\/strong>Apples and cinnamon come together in this epic version of our favourite childhood pastry.<br\/><br\/><strong>Daily Cake - 7<br\/><\/strong>Seasonal cake sold by the slice. <br\/><br\/><strong>Sweet Galette - 8<br\/><\/strong>Pastry made with our house-milled Organic Sifted Red Spring Wheat Flour. Inspired by what's in season. <br\/><\/p>",
+        "text_size": 2,
+        "text_columns": 2,
+        "align_text": "text-left",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--large",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#f3f0ec"
+      }
+    },
+    "1648739549698a3257": {
+      "type": "section-map",
+      "settings": {
+        "height": "screen-height-one-half",
+        "title": "Strathcona",
+        "address": "<p>859 East Hastings Street <br\/>Vancouver, Canada<\/p><p>Open Daily 11AM - 4PM<\/p>",
+        "button": "DIRECTIONS",
+        "text_color": "text-dark",
+        "bg_color": "#fbfbfb",
+        "api_key": "",
+        "map_address": "859 East Hastings Street Vancouver",
+        "zoom": 11,
+        "style": "light",
+        "image": "shopify:\/\/shop_images\/615A7832_73e42400-de2d-4ec4-820b-96e0aab5a053.jpg",
+        "bg_position": "center-center",
+        "enable_latlong": false,
+        "lat": "",
+        "long": ""
+      }
+    },
+    "1648737441d6ce5d40": {
+      "type": "section-hero",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/615A6463_df771a2d-e02d-4e8e-bd25-1edf0951acf6.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/615A8014_b65a46de-557d-4f54-a96e-7b3d8cf63ad9.jpg",
+        "bg_position": "center-center",
+        "height": "screen-height-three-quarters",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "title": "Order Online",
+        "description": "VISIT US IN STORE",
+        "liquid": "",
+        "flex_align": "align--middle-left",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "SHOP HERE",
+        "link": "shopify:\/\/collections\/bakery-all",
+        "button_color": "btn--white",
+        "button_style": "hero__btn btn btn--input caps"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16486831812fb82af6",
+    "16486835538cb85de7",
+    "1648738992a408dfe5",
+    "1648738229850c4c33",
+    "1648739549698a3257",
+    "1648737441d6ce5d40"
+  ]
+}

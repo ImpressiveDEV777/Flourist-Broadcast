@@ -1,0 +1,95 @@
+{
+  "sections": {
+    "1647102195fc584822": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/615A8064_d724e4d1-9afd-4b66-b492-e936dc5064ff.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/615A7886.jpg",
+        "bg_position": "center-center",
+        "height": "five-fifty-height-hero",
+        "overlay_opacity": 10,
+        "overlay_color": "#000000",
+        "title": "",
+        "description": "",
+        "liquid": "{% if customer %}\n<h1 class=\"hero__title\">Welcome back {{ customer.first_name }}!<\/h1>\n<p class=\"hero__description h5--body standard__subheading\">You currently have <span data-lion-points=\"\"><\/span> points<\/p>\n{% else %}\n<h1 class=\"hero__title\">Join our Flourist Rewards Club.<\/h1>\n<div class=\"text-center\">\n            <a href=\"\/account\/register\" class=\"hero__btn btn btn--input caps btn--link\">Join Now<\/a>\n            <a href=\"\/account\" class=\"hero__btn btn btn--input caps btn--link\">Sign in<\/a>\n      <\/div>\n{% endif %}",
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "caps--large"
+      }
+    },
+    "16482343700ed1788d": {
+      "type": "section-rich-text",
+      "settings": {
+        "subheading": "EARN REWARDS CLUB POINTS",
+        "title": "Join the Club",
+        "heading_font": "font-serif",
+        "text": "<p>A healthy community is built on healthy food. Join our Rewards Club and earn points for every purchase you make. Leave us a review, subscribe to our newsletter, or simply shop for your favourite items. Redeem points for cash rewards.  <\/p>",
+        "text_size": 4,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "JOIN HERE",
+        "button_url": "https:\/\/flourist.com\/account\/register",
+        "button_color": "btn--link",
+        "button_style": "hero__btn btn btn--input caps",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#f5f2ea"
+      }
+    },
+    "164823488298f4c141": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n.lion-header__join-today,\n.lion-header__join-buttons{\ndisplay: none !important;\n}\n.lion-header{\nmargin-top: -32px;\n}\n<\/style>\n<div class=\"wrapper\">\n<div data-lion-integrated-page=\"\"><\/div>\n<\/div>"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff"
+      }
+    },
+    "1647358877959fa8f6": {
+      "type": "section-split-hero",
+      "settings": {
+        "image_height": "five-fifty-height-hero",
+        "mobile_layout": "stacked",
+        "image_desktop_left": "shopify:\/\/shop_images\/615A6622.jpg",
+        "bg_position_left": "center-center",
+        "image_desktop_right": "shopify:\/\/shop_images\/D9B109D9-0968-4084-A772-BF0FABA6E10B_1_105_c.jpg",
+        "bg_position_right": "center-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 15,
+        "title": "The Best of our Mill + Bakery",
+        "description": "Redeem points for rewards.",
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "SIGN UP",
+        "link": "https:\/\/flourist.com\/account\/register",
+        "button_color": "btn--white",
+        "button_style": "hero__btn btn btn--input caps"
+      }
+    }
+  },
+  "order": [
+    "1647102195fc584822",
+    "16482343700ed1788d",
+    "164823488298f4c141",
+    "main",
+    "1647358877959fa8f6"
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "sections": {
+    "16467597425573640a": {
+      "type": "section-button-row",
+      "disabled": true,
+      "blocks": {
+        "f9b70cef-cc75-442a-93bd-4a8344326c78": {
+          "type": "button",
+          "settings": {
+            "title": "All",
+            "button_url": "shopify:\/\/blogs\/recipes",
+            "tag": ""
+          }
+        },
+        "1646759742d0abc470-0": {
+          "type": "button",
+          "settings": {
+            "title": "Breakfast",
+            "button_url": "",
+            "tag": "Breakfast"
+          }
+        },
+        "1646759742d0abc470-1": {
+          "type": "button",
+          "settings": {
+            "title": "Meals",
+            "button_url": "",
+            "tag": "Meals"
+          }
+        },
+        "1646759742d0abc470-2": {
+          "type": "button",
+          "settings": {
+            "title": "Vegan",
+            "button_url": "",
+            "tag": "Vegan"
+          }
+        },
+        "fe49e32d-7845-4001-ac57-3d5ef37212e5": {
+          "type": "button",
+          "settings": {
+            "title": "Soup",
+            "button_url": "",
+            "tag": "Soup"
+          }
+        },
+        "0739360e-b027-4f16-b02c-89be08706b75": {
+          "type": "button",
+          "settings": {
+            "title": "Salad",
+            "button_url": "",
+            "tag": "Salad"
+          }
+        },
+        "de0c0dbf-277e-4906-92c6-b4f42f8ed2a7": {
+          "type": "button",
+          "settings": {
+            "title": "Bread",
+            "button_url": "",
+            "tag": "Bread"
+          }
+        },
+        "5d9453ca-fb24-4d41-b0d9-879af5d8b7fc": {
+          "type": "button",
+          "settings": {
+            "title": "Snacks & Treats",
+            "button_url": "https:\/\/flourist.com\/blogs\/recipes\/tagged\/snacks-treats",
+            "tag": "Snacks & Treats"
+          }
+        },
+        "8d2b1001-d078-4303-8343-925f7f8d3804": {
+          "type": "button",
+          "settings": {
+            "title": "Sourdough",
+            "button_url": "",
+            "tag": "Sourdough"
+          }
+        },
+        "32fd869c-230c-45a2-8e12-4a6f2644aec8": {
+          "type": "button",
+          "settings": {
+            "title": "Pastry",
+            "button_url": "",
+            "tag": "Pastry"
+          }
+        },
+        "e0525fd8-7bb5-43d9-98b1-822f65795b28": {
+          "type": "button",
+          "settings": {
+            "title": "Cake",
+            "button_url": "",
+            "tag": "Cake"
+          }
+        },
+        "820b6d31-4644-4836-b30e-dfeeb303a754": {
+          "type": "button",
+          "settings": {
+            "title": "Cookies",
+            "button_url": "",
+            "tag": "Cookies"
+          }
+        },
+        "1e443562-d3c2-4c61-ab27-5f6b7f046e75": {
+          "type": "button",
+          "settings": {
+            "title": "Kid Friendly",
+            "button_url": "",
+            "tag": "Kid Friendly"
+          }
+        }
+      },
+      "block_order": [
+        "f9b70cef-cc75-442a-93bd-4a8344326c78",
+        "1646759742d0abc470-0",
+        "1646759742d0abc470-1",
+        "1646759742d0abc470-2",
+        "fe49e32d-7845-4001-ac57-3d5ef37212e5",
+        "0739360e-b027-4f16-b02c-89be08706b75",
+        "de0c0dbf-277e-4906-92c6-b4f42f8ed2a7",
+        "5d9453ca-fb24-4d41-b0d9-879af5d8b7fc",
+        "8d2b1001-d078-4303-8343-925f7f8d3804",
+        "32fd869c-230c-45a2-8e12-4a6f2644aec8",
+        "e0525fd8-7bb5-43d9-98b1-822f65795b28",
+        "820b6d31-4644-4836-b30e-dfeeb303a754",
+        "1e443562-d3c2-4c61-ab27-5f6b7f046e75"
+      ],
+      "settings": {
+        "title": "Recipes",
+        "title_color": "#503629",
+        "bg_color": "#f5f2ea",
+        "align_text": "text-center",
+        "width": "wrapper--full",
+        "button_color": "btn--neutral",
+        "button_style": "hero__btn btn btn--input btn--outline caps",
+        "button_color_active": "btn--link",
+        "button_style_active": "hero__btn btn btn--input caps"
+      }
+    },
+    "main": {
+      "type": "blog",
+      "settings": {
+        "show_title": true,
+        "show_rss": false,
+        "show_tag_nav": false,
+        "grid": 2,
+        "rows": 3,
+        "aspect_ratio": 0.6,
+        "show_tags": false,
+        "show_author": false,
+        "show_date": false,
+        "show_button": false,
+        "show_comments": false
+      }
+    }
+  },
+  "order": [
+    "16467597425573640a",
+    "main"
+  ]
+}

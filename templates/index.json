@@ -1,0 +1,539 @@
+{
+  "sections": {
+    "164589139550e2cbd9": {
+      "type": "section-slideshow",
+      "blocks": {
+        "9d31eb7b-9991-4d2b-8bbc-9250d469d6be": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "bg_position": "center-center",
+            "image": "shopify:\/\/shop_images\/615A6621_8ade5867-43fc-4c78-bfaf-12b85ddc5387.jpg",
+            "overlay_opacity": 20,
+            "overlay_color": "#000000",
+            "subheading": "SAVE UNTIL MAY 31ST!",
+            "title": "Save 10% on Whole Grains & Beans!",
+            "description": "WHOLE GRAINS & BEANS ARE ON SALE!",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "SHOP HERE",
+            "link": "shopify:\/\/collections\/whole-grains-beans",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--input caps"
+          }
+        },
+        "94849be9-4754-4ec5-8a38-293510b13dec": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "bg_position": "center-center",
+            "image": "shopify:\/\/shop_images\/Brown_Backgound.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "subheading": "TRIPLE REWARDS!",
+            "title": "Shop + Earn Three Times The Points!",
+            "description": "UNTIL AUGUST 31st AT MIDNIGHT PST",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "SHOP HERE",
+            "link": "shopify:\/\/collections\/flour-dry-goods",
+            "button_color": "btn--link",
+            "button_style": "hero__btn btn btn--large caps"
+          }
+        },
+        "8722bab0-bbea-43f7-a003-fbc1787bd24d": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "image": "shopify:\/\/shop_images\/615A7832_73e42400-de2d-4ec4-820b-96e0aab5a053.jpg",
+            "overlay_opacity": 10,
+            "overlay_color": "#000000",
+            "subheading": "Flour Milled To Order",
+            "title": "Elevate Your Baking",
+            "description": "",
+            "flex_align": "align--middle-right",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "SHOP HERE",
+            "link": "shopify:\/\/collections\/all-collections",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--input caps"
+          }
+        },
+        "65a0747d-9373-4a46-a377-661916e95115": {
+          "type": "image",
+          "settings": {
+            "bg_position": "center-center",
+            "image": "shopify:\/\/shop_images\/615A7705_52906f1e-997d-4128-86e3-0a4e92649526.jpg",
+            "overlay_opacity": 10,
+            "overlay_color": "#000000",
+            "subheading": "Freshly Milled Organic Grain",
+            "title": "No Hidden Ingredients",
+            "description": "",
+            "flex_align": "align--middle-left",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "SHOP NOW",
+            "link": "shopify:\/\/collections\/flour-dry-goods",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--input caps"
+          }
+        }
+      },
+      "block_order": [
+        "9d31eb7b-9991-4d2b-8bbc-9250d469d6be",
+        "94849be9-4754-4ec5-8a38-293510b13dec",
+        "8722bab0-bbea-43f7-a003-fbc1787bd24d",
+        "65a0747d-9373-4a46-a377-661916e95115"
+      ],
+      "settings": {
+        "height": "five-fifty-height-hero",
+        "transition": "slide",
+        "arrows_style": true,
+        "dots_style": "hidden",
+        "autoplay": true,
+        "autoplay_speed": 4
+      }
+    },
+    "16471904621e405c43": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "ELEVATED BAKING",
+        "heading_font": "font-sans-serif",
+        "description": "<p>The Flourist difference? Fresher flour that’s free of chemicals and bleaching. It’s flour in its most natural form.<\/p>",
+        "text_size": 4,
+        "text_alignment": "center",
+        "link_text": "SHOP ALL FLOURS",
+        "link_url": "shopify:\/\/collections\/best-sellers",
+        "button_color": "btn--link",
+        "button_style": "hero__btn btn btn--input caps",
+        "featured_collection": "best-sellers",
+        "grid": 3,
+        "rows": 1,
+        "layout_mobile": "2"
+      }
+    },
+    "164589429736cc29b7": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/615A8064_d724e4d1-9afd-4b66-b492-e936dc5064ff.jpg",
+        "bg_position": "center-center",
+        "height": "five-fifty-height-hero",
+        "overlay_opacity": 5,
+        "overlay_color": "#000000",
+        "title": "Don't put this flour in your pantry.",
+        "description": "",
+        "liquid": "",
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "LEARN MORE",
+        "link": "shopify:\/\/pages\/flour",
+        "button_color": "btn--white",
+        "button_style": "hero__btn btn btn--input caps"
+      }
+    },
+    "1645892452f04e76e6": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "{{ section.settings.featured_collection.title }}",
+        "heading_font": "font-sans-serif",
+        "description": "",
+        "text_size": 2,
+        "text_alignment": "center",
+        "link_text": "Shop Best Sellers",
+        "link_url": "shopify:\/\/collections\/best-sellers-1",
+        "button_color": "btn--link",
+        "button_style": "hero__btn btn btn--input caps",
+        "featured_collection": "best-sellers-1",
+        "grid": 3,
+        "rows": 2,
+        "layout_mobile": "2"
+      }
+    },
+    "16528394231e7b3050": {
+      "type": "section-collection",
+      "disabled": true,
+      "settings": {
+        "heading": "Whole Grains & Beans",
+        "heading_font": "font-serif",
+        "description": "<p>Love our flour? Discover the amazing freshness in our premium whole grains and beans! Shop and save 10% automatically. <\/p>",
+        "text_size": 4,
+        "text_alignment": "center",
+        "link_text": "Shop all dry goods",
+        "link_url": "shopify:\/\/collections\/whole-grains-beans",
+        "button_color": "btn--link",
+        "button_style": "hero__btn btn btn--input caps",
+        "featured_collection": "whole-grains-beans",
+        "grid": 3,
+        "rows": 2,
+        "layout_mobile": "carousel"
+      }
+    },
+    "1659792054de63f227": {
+      "type": "section-hero",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/615A8028_db7875cf-d4ce-498d-9f6a-269cc0731cec.jpg",
+        "bg_position": "center-center",
+        "height": "screen-height-three-quarters",
+        "overlay_opacity": 5,
+        "overlay_color": "#000000",
+        "title": "Join the Club.",
+        "description": "SIGN UP FOR REWARDS HERE!",
+        "liquid": "",
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "START COLLECTING",
+        "link": "shopify:\/\/pages\/rewards",
+        "button_color": "btn--white",
+        "button_style": "hero__btn btn btn--large caps"
+      }
+    },
+    "hero": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/615A7695_38e65a3c-cd8d-451c-95a8-353eac44db46.jpg",
+        "bg_position": "left-center",
+        "height": "five-fifty-height-hero",
+        "overlay_opacity": 5,
+        "overlay_color": "#503629",
+        "title": "Bundle + Save",
+        "description": "SHOP OUR BEST SELLERS",
+        "liquid": "",
+        "flex_align": "align--middle-left",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "Shop Bundles",
+        "link": "shopify:\/\/collections\/bundle-save",
+        "button_color": "btn--white",
+        "button_style": "hero__btn btn btn--input caps"
+      }
+    },
+    "1645895126212822a6": {
+      "type": "section-accordion",
+      "blocks": {
+        "164589512642fd90aa-0": {
+          "type": "text",
+          "settings": {
+            "title": "Mail Delivery",
+            "text": "<p>We offer flat rate shipping of flour, dry goods and kitchen tools to the USA + Canada. Your flour is freshly milled to order. See our <a href=\"https:\/\/flourist.com\/pages\/reviews\" target=\"_blank\" title=\"https:\/\/flourist.com\/pages\/reviews\">reviews<\/a> and shop our <a href=\"https:\/\/flourist.com\/collections\/best-sellers-1\" target=\"_blank\" title=\"https:\/\/flourist.com\/collections\/best-sellers-1\">best sellers.<\/a> For inspiration, browse our <a href=\"https:\/\/flourist.com\/blogs\/recipes\" target=\"_blank\" title=\"Recipes\">recipe collection.<\/a> <\/p>"
+          }
+        },
+        "164589512642fd90aa-1": {
+          "type": "text",
+          "settings": {
+            "title": "Local Online Orders",
+            "text": "<p>Shop for next day pick-up or local delivery. Select all your necessities: bread, produce, groceries, fresh pastries and more. We source the best, and quality is always guaranteed, so you can shop with confidence. <\/p>"
+          }
+        },
+        "164589512642fd90aa-2": {
+          "type": "text",
+          "settings": {
+            "title": "Retail Locations",
+            "text": "<p>Dine in, shop or take a <a href=\"https:\/\/flourist.com\/collections\/classes\" target=\"_blank\" title=\"classes\">class<\/a> with us at our Commercial Street flagship. Visit our Strathcona store for flour, dry goods and an assortment of our best selling bread and pastries. Learn more about our locations <a href=\"https:\/\/flourist.com\/pages\/locations\" target=\"_blank\" title=\"locations\">here.<\/a><\/p>"
+          }
+        },
+        "164589512642fd90aa-3": {
+          "type": "text",
+          "settings": {
+            "title": "Join the Club",
+            "text": "<p>Subscribe to our newsletter to be the first to know about our latest recipes, new items, promotions and more. Join our <a href=\"https:\/\/flourist.com\/pages\/rewards\" target=\"_blank\" title=\"loyalty\">Rewards Club<\/a> to collect points with every purchase! Rewards Club points are redeemable for cash rewards. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "164589512642fd90aa-0",
+        "164589512642fd90aa-1",
+        "164589512642fd90aa-2",
+        "164589512642fd90aa-3"
+      ],
+      "settings": {
+        "title": "How It Works →"
+      }
+    },
+    "16458931515b6ff45e": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "1645893151b03da28a-0": {
+          "type": "collection",
+          "settings": {
+            "title": "Shop for mail  →",
+            "featured_collection": "all-products-by-mail",
+            "show_image": false,
+            "image": "shopify:\/\/shop_images\/615A7705.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "<p>SHIPPING TO CANADA + THE USA<\/p>",
+            "text_color": "text-light",
+            "link_text": "View products",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--input caps"
+          }
+        },
+        "1645893151b03da28a-1": {
+          "type": "collection",
+          "settings": {
+            "title": "Shop the bakery →",
+            "featured_collection": "bakery",
+            "show_image": false,
+            "image": "shopify:\/\/shop_images\/7CB0A082-B033-45C8-BF5C-8B4D34D71636_1_105_c.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#503629",
+            "description": "<p>NEXT DAY LOCAL DELIVERY OR PICKUP <\/p>",
+            "text_color": "text-light",
+            "link_text": "SHOP NOW",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--input caps"
+          }
+        }
+      },
+      "block_order": [
+        "1645893151b03da28a-0",
+        "1645893151b03da28a-1"
+      ],
+      "settings": {
+        "title": "Shop Collections",
+        "heading_font": "font-sans-serif"
+      }
+    },
+    "16459018906bf1513a": {
+      "type": "section-custom-content",
+      "disabled": true,
+      "blocks": {
+        "1645901889c2048488-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/615A6621.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "bg_color": "#f5f2ea",
+            "transparent": true,
+            "link_text": "",
+            "link": "shopify:\/\/collections\/classes",
+            "button_color": "btn--link",
+            "button_style": "hero__btn btn btn--input caps"
+          }
+        },
+        "1645901889c2048488-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "EVERYBODY'S AN ARTISAN",
+            "title": "Our Classes",
+            "text": "<p>You don’t need to go to culinary school to create exceptional meals. You just need quality ingredients and a little curiosity. We inspire at-home bakers and chefs to experiment in their kitchens. We capture the excitement of grains by creating, testing and sharing new recipes every single week, and hosting baking and pasta making workshops. Our approach is rooted in empowerment and helps to build a supportive, generous community—no prior experience necessary.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#ffffff",
+            "button_text": "Learn more",
+            "button_url": "shopify:\/\/collections\/classes",
+            "button_color": "btn--link",
+            "button_style": "hero__btn btn btn--input caps"
+          }
+        }
+      },
+      "block_order": [
+        "1645901889c2048488-0",
+        "1645901889c2048488-1"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "1648249191e41b6d9b": {
+      "type": "section-rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "EVERYBODY'S AN ARTISAN",
+        "title": "Experiment with us. It's all part of the fun.",
+        "heading_font": "font-serif",
+        "text": "<p>We share the tools, education and community people need to access, cook and eat nutritious, whole food.<\/p>",
+        "text_size": 3,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "SEE OUR RECIPES",
+        "button_url": "",
+        "button_color": "btn--link",
+        "button_style": "hero__btn btn btn--input caps",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#f5f2ea"
+      }
+    },
+    "164824910796a67d46": {
+      "type": "section-reviews",
+      "disabled": true,
+      "blocks": {
+        "1648249107bdcd1ee2-0": {
+          "type": "review",
+          "settings": {
+            "title": "Jeremy Usborne",
+            "subheading": "Industry Expert",
+            "review_text": "<p>Use this text to showcase a review from one of your customers.  A great review is honest and speaks to the concerns of your customers.<\/p>",
+            "review_url": "",
+            "review_link_name": ""
+          }
+        },
+        "1648249107bdcd1ee2-1": {
+          "type": "review",
+          "settings": {
+            "title": "Willy Bridge",
+            "subheading": "Industry Expert",
+            "review_text": "<p>Use this text to showcase a review from one of your customers.  A great review is honest and speaks to the concerns of your customers.<\/p>",
+            "review_url": "",
+            "review_link_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "1648249107bdcd1ee2-0",
+        "1648249107bdcd1ee2-1"
+      ],
+      "settings": {
+        "text_align": "text-left",
+        "text_color": "text-dark",
+        "bg_color": "#f5f2ea"
+      }
+    },
+    "16446249860186fefa": {
+      "type": "section-press",
+      "blocks": {
+        "1644624986cb696b87-0": {
+          "type": "logo-item",
+          "settings": {
+            "description": "<p><em>\"There’s transparency in business. And then there’s what Flourist co-founders Shira McDermott and Janna Bishop do.\"<\/em><\/p><p><strong>- Western Living<\/strong><\/p>",
+            "logo": "shopify:\/\/shop_images\/Klb5YMlS_400x400_744f89b3-94c4-449f-a181-c2a7520b018e.jpg",
+            "logo_width": 100
+          }
+        },
+        "1644624986cb696b87-1": {
+          "type": "logo-item",
+          "settings": {
+            "description": "<p><em>\"All along, their vision included the next stage of disrupting the traditional food supply chain: expansion into retail in a combined flour mill, retail bakery and cafe.\"<\/em><\/p><p><strong>- The Cool Hunter<\/strong><\/p>",
+            "logo": "shopify:\/\/shop_images\/ec5337ebb89e068fb44cd311af610f87.jpg",
+            "logo_width": 100
+          }
+        },
+        "932f4a0e-e4e9-4e30-ba77-172a35f713f2": {
+          "type": "logo-item",
+          "disabled": true,
+          "settings": {
+            "description": "<p>Include a brief quote from a brand that loves your products<\/p>",
+            "logo_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "1644624986cb696b87-0",
+        "1644624986cb696b87-1",
+        "932f4a0e-e4e9-4e30-ba77-172a35f713f2"
+      ],
+      "settings": {
+        "title": "",
+        "logo_opacity": 40,
+        "text_color": "text-dark",
+        "bg_color": "#ffffff"
+      }
+    },
+    "164824879390f0c6be": {
+      "type": "featured-posts",
+      "disabled": true,
+      "blocks": {
+        "1648248793c3a2f216-0": {
+          "type": "featured_post",
+          "settings": {
+            "featured_post": "recipes\/milk-chocolate-starter-cookies",
+            "subheading": "",
+            "bg_position": "center-center"
+          }
+        },
+        "6278d5b1-cc16-4a35-a04b-cce05082243d": {
+          "type": "featured_post",
+          "settings": {
+            "featured_post": "recipes\/zucchini-chocolate-cake",
+            "subheading": "Featured post",
+            "bg_position": "center-center"
+          }
+        },
+        "4ceb26b4-685e-4f2e-8d56-3ba11b7ec4e0": {
+          "type": "featured_post",
+          "settings": {
+            "featured_post": "recipes\/summer-berry-yoghurt-cake",
+            "subheading": "Featured post",
+            "bg_position": "center-center"
+          }
+        },
+        "2c1d2d1c-cd07-44c3-8b00-2de7e39f03aa": {
+          "type": "featured_post",
+          "settings": {
+            "featured_post": "recipes\/heirloom-tomato-galette",
+            "subheading": "Featured post",
+            "bg_position": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "1648248793c3a2f216-0",
+        "6278d5b1-cc16-4a35-a04b-cce05082243d",
+        "4ceb26b4-685e-4f2e-8d56-3ba11b7ec4e0",
+        "2c1d2d1c-cd07-44c3-8b00-2de7e39f03aa"
+      ],
+      "settings": {
+        "show_author": false,
+        "show_date": false,
+        "show_button": true
+      }
+    },
+    "1645814619e1b5bfae": {
+      "type": "apps",
+      "blocks": {
+        "01fdbf36-b378-4aee-81a4-9987488874a3": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "01fdbf36-b378-4aee-81a4-9987488874a3"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    }
+  },
+  "order": [
+    "164589139550e2cbd9",
+    "16471904621e405c43",
+    "164589429736cc29b7",
+    "1645892452f04e76e6",
+    "16528394231e7b3050",
+    "1659792054de63f227",
+    "hero",
+    "1645895126212822a6",
+    "16458931515b6ff45e",
+    "16459018906bf1513a",
+    "1648249191e41b6d9b",
+    "164824910796a67d46",
+    "16446249860186fefa",
+    "164824879390f0c6be",
+    "1645814619e1b5bfae"
+  ]
+}

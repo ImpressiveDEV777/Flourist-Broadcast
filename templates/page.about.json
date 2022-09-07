@@ -1,0 +1,383 @@
+{
+  "sections": {
+    "1647102195fc584822": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/615A8157_25b049a2-9e0b-4859-892f-e9d617b45110.jpg",
+        "bg_position": "center-center",
+        "height": "five-fifty-height-hero",
+        "overlay_opacity": 5,
+        "overlay_color": "#000000",
+        "title": "Our Philosophy: Know Thy Food",
+        "description": "",
+        "liquid": "",
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "caps--large"
+      }
+    },
+    "1647103169a3ea8cf7": {
+      "type": "section-custom-content",
+      "blocks": {
+        "1647103169b474b42f-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "",
+            "text": "<p>A healthy community is built on healthy food. And healthy food depends on how it’s grown, harvested and prepared. We think the question “where did your food come from?” is one each of us should be able to answer.<\/p>",
+            "text_size": 4,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "text_color": "text-dark",
+            "bg_color": "#f5f2ea",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "1647103169b474b42f-1"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": false,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "164710319218ee81bb": {
+      "type": "section-custom-content",
+      "blocks": {
+        "16471031922e0b3445-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7CB0A082-B033-45C8-BF5C-8B4D34D71636_1_105_c.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "bg_color": "#f5f2ea",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "16471031922e0b3445-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "OUR PHILOSOPHY",
+            "title": "Our transparent approach.",
+            "text": "<p>Traceable food is trustworthy food. Clarity begets health. We focus on grains because that’s where we can make the most impact. It’s a cornerstone of our kitchens. Grains allow us to go big—to give a lot of people access to nourishing food. <\/p><p>We work exclusively with Canadian family farms to source premium local grains and beans. Then we stone mill the grain in-house, to order.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#ffffff",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "16471031922e0b3445-0",
+        "16471031922e0b3445-1"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "1647105001db0c3955": {
+      "type": "section-custom-content",
+      "blocks": {
+        "1647105001e51c9b45-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "",
+            "text": "<p>We share the tools, education and community people need to access, cook and eat nutritious, whole food. And the more people crave traceable grains, the more family farmers we can partner with. <\/p>",
+            "text_size": 4,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "text_color": "text-dark",
+            "bg_color": "#f5f2ea",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "1647105001e51c9b45-1"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": false,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "1647104181b611ff12": {
+      "type": "section-custom-content",
+      "blocks": {
+        "1647104181f9dde00f-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "STRONGER TOGETHER",
+            "title": "Everybody's An Artisan",
+            "text": "<p>Our vertically-integrated supply chain connects Canadian farmers directly to people who value quality and craft. This isn’t just about a beautiful loaf of bread (but damn, is bread delicious). It’s about protecting our farmland and creating food security for future generations.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#ffffff",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "1647104181f9dde00f-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/D9B109D9-0968-4084-A772-BF0FABA6E10B_1_105_c_5805d030-9ec5-4d51-81cc-3ba5cd0cbeff.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "bg_color": "#f5f2ea",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "1647104181f9dde00f-1",
+        "1647104181f9dde00f-0"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "1647104645cfe7a2c3": {
+      "type": "section-custom-content",
+      "blocks": {
+        "164710464535e3ae8e-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "",
+            "text": "<p>In 2013, two friends set out to create a company that celebrated grain and bean farmers, while providing a much needed connection to higher quality, fresher flour and dry goods. Flourist was co-founded by Janna Bishop and Shira McDermott, a clothing designer and food industry pro respectively, to fill what they saw as a gap in the growing farm to table movement, and to provide transparency in a whole new, untouched food category.<\/p>",
+            "text_size": 4,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "text_color": "text-dark",
+            "bg_color": "#f5f2ea",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "164710464535e3ae8e-1"
+      ],
+      "settings": {
+        "height": "screen-height-one-third",
+        "padding": false,
+        "borders": false,
+        "wrapper": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff"
+      }
+    },
+    "1648054059be50acc0": {
+      "type": "section-custom-content",
+      "blocks": {
+        "1648054058805beb27-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/120A3A82-2C2F-436B-9D07-3BEF704F49DD_1_105_c.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "bg_color": "#ffffff",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "1648054058805beb27-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "EDIBLE TRANSPARENCY",
+            "title": "A Connection Point",
+            "text": "<p>We connect farmers to the people they feed in a way no one else has before. We give a human face to the cornerstone of our diets and forge a bond between people and the food they eat most often. We help people get curious about where their food comes from and make informed choices about what they’re consuming.<\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#ffffff",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "1648054058805beb27-0",
+        "1648054058805beb27-1"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "1647105775c819473a": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/YJR0ZU-E.jpg",
+        "bg_position": "center-center",
+        "height": "image-height",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "title": "",
+        "description": "",
+        "liquid": "",
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "caps--large"
+      }
+    },
+    "16471076857f43ddb7": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Brown_Backgound.jpg",
+        "bg_position": "center-center",
+        "height": "screen-height-one-half",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "title": "Meet our farmers.",
+        "description": "GET ACQUAINTED WITH YOUR FOOD.",
+        "liquid": "",
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "READ MORE",
+        "link": "shopify:\/\/pages\/our-farmers",
+        "button_color": "btn--link",
+        "button_style": "hero__btn btn btn--large caps"
+      }
+    },
+    "1647107308d3ca3378": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "164710730730a43c7b-0": {
+          "type": "collection",
+          "settings": {
+            "title": "Our Flours ->",
+            "featured_collection": "best-sellers",
+            "show_image": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#503629",
+            "description": "",
+            "text_color": "text-light",
+            "link_text": "View products",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "164710730730a43c7b-1": {
+          "type": "collection",
+          "settings": {
+            "title": "Dry Goods ->",
+            "featured_collection": "whole-grains-beans",
+            "show_image": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "text_color": "text-light",
+            "link_text": "View products",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "164710730730a43c7b-0",
+        "164710730730a43c7b-1"
+      ],
+      "settings": {
+        "title": "More to explore",
+        "heading_font": "font-serif"
+      }
+    }
+  },
+  "order": [
+    "1647102195fc584822",
+    "1647103169a3ea8cf7",
+    "164710319218ee81bb",
+    "1647105001db0c3955",
+    "1647104181b611ff12",
+    "1647104645cfe7a2c3",
+    "main",
+    "1648054059be50acc0",
+    "1647105775c819473a",
+    "16471076857f43ddb7",
+    "1647107308d3ca3378"
+  ]
+}

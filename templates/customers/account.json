@@ -1,0 +1,36 @@
+{
+  "sections": {
+    "main": {
+      "type": "customer-account",
+      "blocks": {
+        "account": {
+          "type": "account",
+          "settings": {}
+        },
+        "email": {
+          "type": "email",
+          "settings": {
+            "title": "Support",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "account",
+        "email"
+      ],
+      "settings": {}
+    },
+    "16474699366e2a62bc": {
+      "type": "custom-html",
+      "settings": {
+        "html": "<div data-lion-integrated-page=\"\"><\/div>",
+        "show_padding": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16474699366e2a62bc"
+  ]
+}

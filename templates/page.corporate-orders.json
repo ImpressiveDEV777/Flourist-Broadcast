@@ -1,0 +1,116 @@
+{
+  "sections": {
+    "1648055233a6b57be7": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/615A6832.jpg",
+        "bg_position": "center-center",
+        "height": "screen-height-two-thirds",
+        "overlay_opacity": 10,
+        "overlay_color": "#000000",
+        "title": "Corporate Orders",
+        "description": "",
+        "liquid": "",
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "caps--large"
+      }
+    },
+    "1648055815bbb92bc5": {
+      "type": "section-rich-text",
+      "settings": {
+        "subheading": "GIFTS MADE EASY",
+        "title": "Corporate Orders",
+        "heading_font": "font-serif",
+        "text": "<p>Treat your team, or your top clients, to a custom order of our premium pastries, bread or prepared foods. We offer delivery, gift wrap, and support to create a curated gift experience that makes a lasting impact. <br\/><\/p>",
+        "text_size": 3,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "CONTACT US",
+        "button_url": "shopify:\/\/pages\/contact",
+        "button_color": "btn--link",
+        "button_style": "hero__btn btn btn--input caps",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#f5f2ea"
+      }
+    },
+    "1648074049ea9ff7c9": {
+      "type": "section-custom-content",
+      "blocks": {
+        "16480740481a93e110-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "EVENTS + CLASSES",
+            "title": "Commercial Street",
+            "text": "<p>Contact us to inquire about group classes, or custom parties or events. Our sourdough bread and pasta classes accommodate up to 24 people and are a wonderful way to unwind, learn a new skill, and relax. <br\/><\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#ffffff",
+            "button_text": "LEARN MORE",
+            "button_url": "shopify:\/\/pages\/contact",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--input caps"
+          }
+        },
+        "16480740481a93e110-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/917351F7-683B-4B8C-B246-7D4FAEDB6C72_1_105_c.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "bg_color": "#f5f2ea",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "16480740481a93e110-1",
+        "16480740481a93e110-0"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "1648055233a6b57be7",
+    "1648055815bbb92bc5",
+    "1648074049ea9ff7c9",
+    "main"
+  ]
+}

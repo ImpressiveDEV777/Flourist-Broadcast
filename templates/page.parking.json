@@ -1,0 +1,65 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": false,
+        "show_content": false,
+        "text_size": 2,
+        "align_text": "text-center",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#f5f2ea"
+      }
+    },
+    "1651850046a0c6d7cc": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/615A6832.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/615A6832.jpg",
+        "bg_position": "center-center",
+        "height": "screen-height-three-quarters",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "title": "Parking at our locations",
+        "description": "",
+        "liquid": "",
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "caps--large"
+      }
+    },
+    "165185031973cfa574": {
+      "type": "section-rich-text",
+      "settings": {
+        "subheading": "VISITING US",
+        "title": "Where to park",
+        "heading_font": "font-serif",
+        "text": "<p>If visting our Strathcona location, there is ample free street parking right out front of the store, and in the surrounding blocks. There are also bike racks situated directly in front of our location. <br\/><br\/>We are very excited to share that visitors to our Commercial Street location can park in the South facing parking lot (the one facing us at Commercial Street) at the Croatian Cultural Centre, during our opening hours of 9AM-5PM. So long as there is space, Flourist customers are welcome to park there, free of charge. <br\/><br\/>Plan your trip to our bakery with confidence that parking will be hassle free! <br\/><br\/>We look forward to seeing you soon! <\/p>",
+        "text_size": 2,
+        "text_columns": 1,
+        "align_text": "text-left",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--large",
+        "height": "margin--small",
+        "width": "wrapper--full",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1651850046a0c6d7cc",
+    "165185031973cfa574"
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "sections": {
+    "1648055233a6b57be7": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/615A6622.jpg",
+        "bg_position": "center-center",
+        "height": "screen-height-three-quarters",
+        "overlay_opacity": 10,
+        "overlay_color": "#000000",
+        "title": "Shop our Vancouver locations.",
+        "description": "",
+        "liquid": "",
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "caps--large"
+      }
+    },
+    "1648055815bbb92bc5": {
+      "type": "section-rich-text",
+      "settings": {
+        "subheading": "SHOP WITH US",
+        "title": "Our Locations",
+        "heading_font": "font-serif",
+        "text": "<p>Flourist is first and foremost a Vancouver-based flour miller and dry goods brand. Our mission is to connect consumers to better ingredients by sharing the tools, education and community people need to access, cook and eat nutritious, whole food. Founded in 2014 by Janna Bishop and Shira McDermott, Flourist started out as a wholesale supplier to Vancouver's restaurant scene. Our team has grown since those early days and so have the ways you can get our products.<\/p>",
+        "text_size": 3,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--large",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#f5f2ea"
+      }
+    },
+    "1648073110c762b9b1": {
+      "type": "section-custom-content",
+      "blocks": {
+        "16480731096e661492-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6CA6D6E5-E77E-41BC-8075-5AAAA9C069E3_1_105_c.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "bg_color": "#f5f2ea",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "16480731096e661492-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "OPEN 9AM-5PM M-F | 8AM-6PM WEEKENDS",
+            "title": "3433 Commercial Street",
+            "text": "<p>The Flourist Bakery on Commercial Street is our flagship retail location. Opening in August of 2019, it is the first bakery in Vancouver to exclusively use flour stone milled on site. <br\/><br\/>Our bakery on Commercial Street offers artisan coffees and plenty of seating, as well as our full range of bread, pastry, and lunch options including our grain salads and sandwiches. We offer a curated selection of local beverages, grocery items, kitchen tools and more. Customers are invited to eat, shop, take classes, and enjoy the beautiful design of our shaker-inspired space designed by local design studio Ste. Marie Studio. <\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#ffffff",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "16480731096e661492-0",
+        "16480731096e661492-1"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "1648076478bb2ef6a7": {
+      "type": "section-rich-text",
+      "settings": {
+        "subheading": "PLAN AHEAD",
+        "title": "Shop Online",
+        "heading_font": "font-serif",
+        "text": "<p>Visit our shops for lunch, your daily bread, or for baking and cooking essentials. Place an order the day before for pickup and take advantage of our full assortment of premium grocery items. <\/p>",
+        "text_size": 3,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "SHOP ONLINE",
+        "button_url": "shopify:\/\/collections\/bakery-all",
+        "button_color": "btn--link",
+        "button_style": "hero__btn btn btn--input caps",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#f5f2ea"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff"
+      }
+    },
+    "1648072971701419f3": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "html": "<div style=\"text-align: center;\">We bake using freshly milled flour milled in-house exclusively. We don't use any white flour in any of our baking. <br><br>In addition to freshly milled flour and our premium dry goods for your home pantry, the Flourist Mill + Bakery serves our favourite things to eat. The menu is inspired by the foods we ate and enjoyed in our childhoods, from our grandmothers' prairie kitchens to our family dinner tables. This is the food we want to eat everyday and we hope you will too. We've taken great care to source the best ingredients we can find. With full transparency in mind, we've chosen partners that truly share our values of premium quality and traceability.<\/div>\n<div style=\"text-align: center;\">Eating with us means you are supporting many locally owned small businesses, working to create better products for everyone. When sourcing, we ask all of our suppliers the following questions: Can it be traced to the exact source? Who owns the company? Is it a family run business? What is the company's stance on the environment? Does it have a diverse workforce?<\/div>\n<p> <\/p>\n<!-- split-left -->\n<h2><\/h2>\n<h5>Bread<\/h5>\n<meta charset=\"utf-8\">\nAll of our breads are baked using our signature sourdough starter and are baked in house daily using premium Flourist flours milled in-house. We don't use commercial yeast or white flour in any of our breads. \n<h5><span>Sourdough Boule - 8<\/span><\/h5>\n<p><span>The classic Flourist boule made with 100% Sifted Red Spring Wheat Flour.<\/span><\/p>\n<h5><span>Sourdough Pan Loaf - 8<\/span><\/h5>\n<p><span>The classic Flourist pan loaf made with 100% Sifted Red Spring Wheat Flour.<br><\/span><\/p>\n<meta charset=\"utf-8\">\n<h3><span><\/span><\/h3>\n<meta charset=\"utf-8\">\n<h5><span>Olive Loaf - 10<\/span><\/h5>\n<p><span>Our 100% Sifted Red Spring Wheat Flour sourdough with a mixture of Kalamata and Castelvetrano olives.<\/span><\/p>\n<h5><span>Seeded Pan Loaf - 10<\/span><\/h5>\n<p><span>100% Whole Grain Spelt, 100% seedy.<\/span><\/p>\n<h5><span><\/span><\/h5>\n<meta charset=\"utf-8\">\n<h5><span><\/span><\/h5>\n<h5><span>Baguette - 5<\/span><\/h5>\n<p><span>The only baguette in Vancouver with no white flour. Made with 100% Sifted Red Spring Wheat Flour.<\/span><\/p>\n<h3><span><\/span><\/h3>\n<h3><span><\/span><\/h3>\n<meta charset=\"utf-8\">\n<h3><span><\/span><\/h3>\n<meta charset=\"utf-8\">\n<h5>Grain Salads <\/h5>\n<h><span>Our legendary grain salads featuring our premium Canadian whole grains and legumes and seasonal produce. <\/span>\n<h5><span>Daily Feature - 6 \/ 8<\/span><\/h5>\n<p><span>See the case for today’s offering.<br><\/span><\/p>\n<meta charset=\"utf-8\">\n<h5>Savoury Pastries<\/h5>\n<h5><span>Potato and Cheese - 8<\/span><\/h5>\n<p><span>Golden potatoes and cheese encased in a flaky pastry crust.<\/span><\/p>\n<meta charset=\"utf-8\">\n<h3><span>Mediterranean Lentil Handpie - 7<\/span><\/h3>\n<meta charset=\"utf-8\">\n<p><span>A delicious savoury hand pie with spiced French Lentils, feta, sundried tomatoes, sumac + parsley in our Spelt pastry.<\/span><\/p>\n<meta charset=\"utf-8\">\n<h3><span>Pizza Buns- 6<\/span><\/h3>\n<p><span>Aged cheddar and gruyere cheese, sourdough brioche Dough, house made organic tomato jam. Perfect with a cold beer. <\/span><\/p>\n<meta charset=\"utf-8\">\n<h3><span>Breakfast Bun - 7<\/span><\/h3>\n<p><span>An egg, nestled into a soft brioche bun, topped with cheese. <\/span><\/p>\n<meta charset=\"utf-8\">\n<h3><span>Daily Flatbread - 6<\/span><\/h3>\n<p><span>Changes daily. One vegetarian and one vegan option everyday.<\/span><\/p>\n<h3><span><\/span><\/h3>\n<h2>Sweets<\/h2>\n<h3><span><\/span><\/h3>\n<meta charset=\"utf-8\">\n<h3><span>Chocolate Chip Cookie - 4<\/span><\/h3>\n<p><span>Our classic cookie. Made with Sifted Red Fife Flour and East Van Roasters Chocolate.<\/span><\/p>\n<h3><span><\/span><\/h3>\n<h3><span>Hazelnut Jam Cookie - 3<\/span><\/h3>\n<p><span>Hazelnut cookie base with a dollop of seasonal jam. Made with our Whole Grain Einkorn Flour.<\/span><\/p>\n<h3><span>Sweet Galette - 8<\/span><\/h3>\n<p><span>Pastry made with our house-milled Organic Sifted Red Spring Wheat Flour. Inspired by what's in season. <\/span><\/p>\n<h3><span>Vegan Tahini Chocolate Cookie - 4<\/span><\/h3>\n<p><span>East Van Roasters Chocolate, Whole Grain flour and tahini.<\/span><\/p>\n<meta charset=\"utf-8\">\n<h3><span><\/span><\/h3>\n<h3><span><\/span><\/h3>\n<h3>Full sized galettes are available by pre-order. Please <a href=\"mailto:%20info@flourist.com\" target=\"_blank\" rel=\"noopener noreferrer\">inquire.<\/a>\n<\/h3>\n<h2>Drinks<\/h2>\n<h3><span>Espresso - 3<\/span><\/h3>\n<meta charset=\"utf-8\">\n<p><span>JJ Bean Espresso.  Locally roasted. <\/span><\/p>\n<h3><span>Americano - 3<\/span><\/h3>\n<meta charset=\"utf-8\">\n<meta charset=\"utf-8\">\n<p><span>JJ Bean Espresso<\/span><span>.  <\/span><span>L<\/span><span>ocally roasted. <\/span><\/p>\n<h3><span>Cappuccino - 4<\/span><\/h3>\n<meta charset=\"utf-8\">\n<meta charset=\"utf-8\">\n<p><span>JJ Bean Espresso.  Locally roasted beans and full fat milk. <\/span><\/p>\n<h3><span>Latte - 4.5<\/span><\/h3>\n<meta charset=\"utf-8\">\n<meta charset=\"utf-8\">\n<p><span>JJ Bean Espresso<\/span><span>. <\/span><span> <\/span><span>L<\/span><span>ocally roasted beans and full fat milk. <\/span><\/p>\n<h3><span>Mocha - 5<\/span><\/h3>\n<meta charset=\"utf-8\">\n<meta charset=\"utf-8\">\n<p><span>JJ Bean Espresso.  Locally roasted beans and full fat milk with chocolate sauce.<br><\/span><\/p>\n<h3><span>Tea - 3.50<\/span><\/h3>\n<p><span>Loose leaf teas by Vancouver's 05 Tea. Earl Grey, English Breakfast, Peppermint, and Hojicha. Rooibos from Gathering Places Trading. <\/span><\/p>\n<meta charset=\"utf-8\">\n<h3><span>Hibiscus Lemonade - 5<\/span><\/h3>\n<p><span>Hibiscus tea and lemonade blended to perfection. <\/span><\/p>\n<meta charset=\"utf-8\">\n<h3><span>Black Tea Lemonade - 5<\/span><\/h3>\n<p><span>English Breakfast tea and lemonade blended to perfection. <\/span><\/p>\n<meta charset=\"utf-8\">\n<h3><span>Beer on Tap - 8<\/span><\/h3>\n<p><span>Rotating assortment. 15 oz.<\/span><\/p>\n<meta charset=\"utf-8\">\n<h3><span><\/span><\/h3>\n<meta charset=\"utf-8\">\n<h3><span>Tality Kombucha - 8<\/span><\/h3>\n<p><span>Refreshingly fruity blend tea and hops. 15 oz. <\/span><\/p>\n<meta charset=\"utf-8\">\n<h3><span>Wine by the Glass - 10<\/span><\/h3>\n<p><span>House White, Red and Rosé. 5 oz. <\/span><\/p>\n<meta charset=\"utf-8\">\n<h3><span><\/span><\/h3>\n<h3><span><\/span><\/h3><\/h>",
+        "show_padding": true
+      }
+    },
+    "1648074049ea9ff7c9": {
+      "type": "section-custom-content",
+      "blocks": {
+        "16480740481a93e110-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "OPEN 11AM-4PM DAILY",
+            "title": "859 East Hastings",
+            "text": "<p>Our Strathcona location is an easy to access retail experience for the local community, or those looking to visit our main headquarters. Shop flour, dry goods, our best-selling prepared foods, curated grocery items, and kitchen tools. <br\/><\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#ffffff",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "16480740481a93e110-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/917351F7-683B-4B8C-B246-7D4FAEDB6C72_1_105_c.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "bg_color": "#f5f2ea",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "16480740481a93e110-1",
+        "16480740481a93e110-0"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "1648075316703fcb46": {
+      "type": "section-accordion",
+      "blocks": {
+        "16480753165bc53a6c-0": {
+          "type": "text",
+          "settings": {
+            "title": "Can I order online and pickup at both locations?",
+            "text": "<p>Yes! Select pickup at either of our locations for pickup the next day. Commercial Street pickup hours are 12PM-5PM and Strathcona pickup hours are 11AM-4PM.  <\/p>"
+          }
+        },
+        "16480753165bc53a6c-1": {
+          "type": "text",
+          "settings": {
+            "title": "Do you serve coffee at Strathcona?",
+            "text": "<p>Unfortunately we only serve coffee at Commercial Street. Strathcona offers pastries, bread, shopping, grab and go lunch options, but does not have seating or coffee. <\/p>"
+          }
+        },
+        "16480753165bc53a6c-2": {
+          "type": "text",
+          "settings": {
+            "title": "Do you have parking?",
+            "text": "<p>We have 3 spots available for customers behind our Commercial Street location, and there is lots of free parking in the neighbourhood. Strathcona has plenty of free parking out front. <\/p>"
+          }
+        },
+        "16480753165bc53a6c-3": {
+          "type": "text",
+          "settings": {
+            "title": "Can I buy flour at both locations?",
+            "text": "<p>Yes you can! No pre-orders are necessary. You can shop all of our flours in the fridges at both locations. If you wish to pre-order for pickup, local delivery, or for shipping, that is also an option. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16480753165bc53a6c-0",
+        "16480753165bc53a6c-1",
+        "16480753165bc53a6c-2",
+        "16480753165bc53a6c-3"
+      ],
+      "settings": {
+        "title": "Frequently asked questions"
+      }
+    },
+    "1648075963ac203e11": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/615A6832.jpg",
+        "bg_position": "center-center",
+        "height": "screen-height-three-quarters",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "title": "",
+        "description": "",
+        "liquid": "",
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "caps--large"
+      }
+    },
+    "1648077526ddcaa4aa": {
+      "type": "section-rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "heading_font": "font-serif",
+        "text": "<p>We acknowledge that the land we occupy is on the traditional, ancestral, and unceded territory of the Coast Salish Peoples, [7] including the territories of the Skwxwú7mesh (Squamish), Səl̓ílwətaʔ\/Selilwitulh (Tsleil-Waututh), S’ólh Téméxw (Stó:lō), and Stz'uminus (Chemainus) Nations. We recognize the vast cultural diversity of Indigenous people, and are grateful to live and learn on this land. <\/p>",
+        "text_size": 2,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "caps--large",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#f5f2eb"
+      }
+    }
+  },
+  "order": [
+    "1648055233a6b57be7",
+    "1648055815bbb92bc5",
+    "1648073110c762b9b1",
+    "1648076478bb2ef6a7",
+    "main",
+    "1648072971701419f3",
+    "1648074049ea9ff7c9",
+    "1648075316703fcb46",
+    "1648075963ac203e11",
+    "1648077526ddcaa4aa"
+  ]
+}

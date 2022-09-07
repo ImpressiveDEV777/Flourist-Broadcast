@@ -1,0 +1,63 @@
+{
+  "sections": {
+    "hero": {
+      "type": "collection-image-with-title",
+      "settings": {
+        "show_title": true,
+        "show_description": true,
+        "text_color": "text-dark",
+        "flex_align": "align--middle-center",
+        "transparent": false,
+        "show_image": false,
+        "banner_layout": "overlay",
+        "height": "screen-height-one-third",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000"
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "settings": {
+        "subcollection_layout": "grid",
+        "subcollection_description": false,
+        "select_image": "collection"
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "085da741-5ea9-4497-8404-2ed5ec4ad57a": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "featured_image": "shopify:\/\/shop_images\/615A7644.jpg",
+            "featured_image_bg_position": "center-center",
+            "featured_heading": "Freshness delivered.",
+            "featured_text": "<p>Shop fresh produce from local farms. <\/p><p><\/p>",
+            "featured_button_text": "Learn more",
+            "featured_button_link": "shopify:\/\/collections\/produce",
+            "featured_color_text": "#ffffff",
+            "featured_color_overlay": "#222222",
+            "featured_overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "085da741-5ea9-4497-8404-2ed5ec4ad57a"
+      ],
+      "settings": {
+        "enable_sort": false,
+        "enable_filters": false,
+        "filter_layout": "inline-open",
+        "grid": 4,
+        "grid_mobile": "2",
+        "product_limit": 36
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "subcollections",
+    "main"
+  ]
+}

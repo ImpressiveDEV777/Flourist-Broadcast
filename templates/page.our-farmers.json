@@ -1,0 +1,421 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff"
+      }
+    },
+    "16471096139dd71c49": {
+      "type": "section-hero",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/YJR0ZU-E.jpg",
+        "bg_position": "center-center",
+        "height": "screen-height-three-quarters",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "title": "",
+        "description": "",
+        "liquid": "",
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "caps--large"
+      }
+    },
+    "1647109650c6b54c0b": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Flourist_ScoutMag_Imagery-05.jpg",
+        "bg_position": "center-center",
+        "height": "screen-height-full",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "title": "",
+        "description": "",
+        "liquid": "",
+        "flex_align": "align--top-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "caps--large"
+      }
+    },
+    "1646340916aa7d6589": {
+      "type": "section-custom-content",
+      "blocks": {
+        "c1427460-70a7-421b-9bcd-8f300df7af06": {
+          "type": "text",
+          "settings": {
+            "subheading": "OUR FARMERS",
+            "title": "Meet our farmers, and get acquainted with your food.",
+            "text": "",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "text_color": "text-dark",
+            "bg_color": "#f5f2ea",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "1646340915bf025dbb-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/farm-map.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "bg_color": "#f5f2ea",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "c1427460-70a7-421b-9bcd-8f300df7af06",
+        "1646340915bf025dbb-0"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "164710994865d5a89b": {
+      "type": "section-custom-content",
+      "blocks": {
+        "1647109948fa9c33e8-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/C92C4471-9B14-4FF4-9F4E-19365A134DAA_1_201_a.jpg",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "bg_color": "#f5f2ea",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "1647109948fa9c33e8-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "EDIBLE TRANSPARENCY",
+            "title": "Premium Quality",
+            "text": "<p>Canada produces some of the worlds best grains and beans. The world markets know this and a majority of these crops are highly sought after for export to other countries. Canada's hard red spring wheat is especially renowned for producing exceptional results in bread baking and pasta making. <br\/><br\/>Canadian-grown crops are valued for their safety, quality and high performance. Flourist exists to connect consumers with this high quality product and tell the stories of the families growing it.<\/p><p><br\/><\/p>",
+            "text_size": 2,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#ffffff",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "1647109948fa9c33e8-0",
+        "1647109948fa9c33e8-1"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "1646339610a480a2e2": {
+      "type": "section-columns",
+      "blocks": {
+        "1646339609d0d5d8cc-0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bob_Wallace.png",
+            "bg_position": "center-center",
+            "title": "Bob Wallace",
+            "text": "<p><strong>Tyner, Saskatchewan<\/strong><\/p><p>Bob Wallace is a seventh-generation farmer working his family farm in Southwest Saskatchewan. Aldor Farms — named after Bob’s parents Allan and Dorothy Wallace — cultivate Red Spring wheat and Laird lentils. Aldor also operates a seed-cleaning facility that serves the region’s farmers. <\/p>",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "1646339609d0d5d8cc-1": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dwayne_a.png",
+            "bg_position": "center-center",
+            "title": "Dwayne Woolhouse",
+            "text": "<p><strong>Assiniboia, Saskatchewan<\/strong><\/p><p>Dwayne Woolhouse has been farming his land organically near Assiniboia, Saskatchewan for more than 40 years, cultivating land first farmed by his grandfather in 1911. Crestview grows durum, korasan (Kamut), spelt, flax, peas and red, black and French lentils.<\/p>",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "1646339609d0d5d8cc-2": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bernie_Ehnes.png",
+            "bg_position": "center-center",
+            "title": "Bernie Ehnes",
+            "text": "<p><strong>Etzikom, Alberta<\/strong><\/p><p>Bernie Ehnes, his wife Kary and their two children farm 2400 acres of certified organic ancient grains, rye, peas and spring wheat. Bernie is a third-generation farmer, working the same land his grandfather homesteaded in 1911 near Etzikom in southeastern Alberta. <\/p>",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "446300af-3f1e-46e5-9d0d-9805ede38ab4": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kyle_Friesen.png",
+            "bg_position": "center-center",
+            "title": "Kyle Friesen",
+            "text": "<p><strong>Altona, Manitoba<\/strong><\/p><p>Kyle Friesen grows our Black Beans and Navy Beans for H&M Farms near Altona, Manitoba. Manitoba, along with Ontario and Alberta, is a key bean growing region for Canada, where the temperature and moisture levels are just right. <\/p>",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "1646339609d0d5d8cc-0",
+        "1646339609d0d5d8cc-1",
+        "1646339609d0d5d8cc-2",
+        "446300af-3f1e-46e5-9d0d-9805ede38ab4"
+      ],
+      "settings": {
+        "title": "",
+        "bg_color": "#f5f2ea",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "equalize_height": true,
+        "photo_aspect_ratio": 1.3,
+        "enable_image": true
+      }
+    },
+    "16472796675ecfe174": {
+      "type": "section-columns",
+      "blocks": {
+        "164727966758a5062d-0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Marc_L_Oiselle.png",
+            "bg_position": "center-center",
+            "title": "Marc Loiselle",
+            "text": "<p>Vonda, Saskatchewan<\/p><p>Marc Loiselle farms organically in Vonda, Saskatchewan on an idyllic 1400 acre farm. An intergenerational family farm, the Loiselle Organic Farm has been in the Loiselle family for 113 years. Marc is a tireless advocate for preserving landrace wheat varieties, including Red Fife, and Marquis wheat. He is also a member of the Slow Food movement.<\/p>",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "164727966758a5062d-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Will_Robbins.png",
+            "bg_position": "center-center",
+            "title": "Will Robbins",
+            "text": "<p>Laura, Saskatchewan<\/p><p>Will Robbins farms our beautiful French Lentils and Red Spring Wheat on his organic farm in Laura, Saskatchewan, a small prairie town about 40 minutes south of Saskatoon. Maida Vale Farms was one of the first certified organic grain and bean farms in the region, and Will's parents have been instrumental in the organic movement within the farming community in Saskatchewan.<\/p>",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "164727966758a5062d-2": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lorne_Muller.png",
+            "bg_position": "center-center",
+            "title": "Lorne Muller",
+            "text": "<p>Swan Valley, Manitoba<\/p><p>Lorne Muller farms our Einkorn organically on Sinclair River Farms in the scenicSwan River Valley of Manitoba. A third-generation farm, the Mullers farm on the belief that the #1 resource as farmers is the soil.Sinclair River Farms uses a regenerative approach to farming, with a focus on building the soil health over the past 15 years.<\/p>",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "164727966758a5062d-0",
+        "164727966758a5062d-1",
+        "164727966758a5062d-2"
+      ],
+      "settings": {
+        "title": "",
+        "bg_color": "#f5f2ea",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "equalize_height": true,
+        "photo_aspect_ratio": 1.3,
+        "enable_image": true
+      }
+    },
+    "1647279677976865ba": {
+      "type": "section-columns",
+      "blocks": {
+        "1647279676fed4bea2-0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Jamie_Draves.png",
+            "bg_position": "center-center",
+            "title": "Jamie Draves",
+            "text": "<p>Iron Springs, Alberta<\/p><p>Jamie Draves works with a co-operative network of farmers across the country who are growing our high protein Golden Quinoa. Our Golden Quinoa is sourced from a multi-generational family farm in Iron Springs Alberta. Currently, 80 acres of quinoa is grown each year. We selected the quinoa from Alberta specifically for its amazing size and sweet taste.  <\/p>",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "1647279676fed4bea2-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Christie_Whelan.png",
+            "bg_position": "center-center",
+            "title": "Christie Whelan",
+            "text": "<p>Moose Jaw, Saskatchewan<\/p><p>Christie Whelan grows our creamy Kabuli Chickpeas on 1400 acres south of Moose Jaw. He and his family are 3rd generation farmers on the land. Christie is dedicated to improving soil health through zero tillage, cover cropping and companion cropping. They are working towards a sustainable non-chemical farming system. Our wildly popular chickpeas are grown without chemical inputs, and are free of herbicides, pesticides, fungicides, and granular fertilizer.<\/p>",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "1647279676fed4bea2-2": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MontySandor_copy_a37632d0-98eb-419c-a2ac-0b24ea9638b3.png",
+            "bg_position": "center-center",
+            "title": "Monty Sandor",
+            "text": "<p>Wood Mountain, Saskatchewan<\/p><p>Monty is an independent farmer, dedicated to Organic farming practices. His Farro is grown and dehulled in Southern Saskatchewan.<\/p>",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "caps--large",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "1647279676fed4bea2-0",
+        "1647279676fed4bea2-1",
+        "1647279676fed4bea2-2"
+      ],
+      "settings": {
+        "title": "",
+        "bg_color": "#f5f2ea",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "equalize_height": true,
+        "photo_aspect_ratio": 1.3,
+        "enable_image": true
+      }
+    },
+    "1647110387d76b4bbf": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/615A8014_b65a46de-557d-4f54-a96e-7b3d8cf63ad9.jpg",
+        "bg_position": "center-center",
+        "height": "screen-height-three-quarters",
+        "overlay_opacity": 10,
+        "overlay_color": "#000000",
+        "title": "Know Your Flour",
+        "description": "#EDIBLETRANSPARENCY",
+        "liquid": "",
+        "flex_align": "align--top-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "OUR FLOUR",
+        "link": "shopify:\/\/pages\/flour",
+        "button_color": "btn--link",
+        "button_style": "hero__btn btn btn--input caps"
+      }
+    },
+    "1647351506f2f0e724": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "Shop Flours",
+        "heading_font": "font-sans-serif",
+        "description": "",
+        "text_size": 2,
+        "text_alignment": "center",
+        "link_text": "SHOP ALL FLOUR",
+        "link_url": "shopify:\/\/collections\/best-sellers",
+        "button_color": "btn--link",
+        "button_style": "hero__btn btn btn--input caps",
+        "featured_collection": "best-sellers",
+        "grid": 3,
+        "rows": 1,
+        "layout_mobile": "carousel"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16471096139dd71c49",
+    "1647109650c6b54c0b",
+    "1646340916aa7d6589",
+    "164710994865d5a89b",
+    "1646339610a480a2e2",
+    "16472796675ecfe174",
+    "1647279677976865ba",
+    "1647110387d76b4bbf",
+    "1647351506f2f0e724"
+  ]
+}

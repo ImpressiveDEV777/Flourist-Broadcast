@@ -1,0 +1,90 @@
+{%- assign additional_attributes = additional_attributes | default: '' -%}
+{%- assign aos_image_delay_default = animation_delay | times: 150 -%}
+{%- assign aos_image_duration_default = animation_delay | times: 100 | plus: 800 -%}
+{%- assign aos_text_duration_default = animation_delay | times: 50 | plus: 800 -%}
+{%- assign aos_image_delay = aos_image_delay | default: aos_image_delay_default -%}
+{%- assign aos_image_duration = aos_image_duration | default: aos_image_duration_default -%}
+{%- assign aos_text_duration = aos_text_duration | default: aos_text_duration_default -%}
+
+{%- unless grid_strings -%}
+  {% assign grid_strings = "one-whole" %}
+{%- endunless -%}
+
+{%- assign border_class = '' -%}
+{%- if settings.product_grid_outline == false -%}
+  {%- assign border_class = 'product-item--borderless' -%}
+{%- endif -%}
+
+{%- assign alignment_class = '' -%}
+{%- if settings.product_grid_center == true -%}
+  {%- assign alignment_class = 'product-item--centered' -%}
+{%- endif -%}
+
+{%- assign article_url = article.url -%}
+
+{%- capture item_unique -%}product-item--{{ section.id }}-{{ index }}{%- endcapture -%}
+{%- assign animation_anchor_default = item_unique | prepend: '.' -%}
+{%- assign animation_anchor = animation_anchor | default: animation_anchor_default -%}
+
+<div class="product-item {{ grid_strings }} {{ border_class }} {{ alignment_class }} {{ item_unique }}" data-product-grid-item {{ additional_attributes }}>
+
+  <div class="product-item__image" data-product-image>
+    <a class="product-link" href="{{ article_url }}" aria-label="{{ article.title | strip_html | escape }}" data-grid-link>
+      {% if article.image %}
+        <div class="product-item__bg lazyload"
+          data-grid-slide
+          data-aos="img-in"
+          data-aos-delay="{{ aos_image_delay }}"
+          data-aos-duration="{{ aos_image_duration }}"
+          data-aos-anchor="{{ animation_anchor }}"
+          data-aos-easing="ease-out-quart"
+          data-bgset="{% render 'bgset', image: article.image %}">&nbsp;</div>
+      {% else %}
+        {%- comment -%} Show "No image" if product has no media {%- endcomment -%}
+        {%- assign image_url_pattern = product.featured_image | img_url: '540x' | replace: '_540x.', '_{width}x.' -%}
+        {%- assign image_widths = "[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" -%}
+
+        <div class="product-item__bg product-item__bg--empty"
+          data-grid-slide
+          data-aos="img-in"
+          data-aos-delay="{{ aos_image_delay }}"
+          data-aos-duration="{{ aos_image_duration }}"
+          data-aos-anchor="{{ animation_anchor }}"
+          data-aos-easing="ease-out-quart">
+            <img
+              class="lazyload"
+              src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+              data-src="{{ image_url_pattern }}"
+              data-widths= "{{ image_widths }}"
+              data-aspectratio="1"
+              data-sizes="auto"
+              width="540"
+              height="540"
+              alt="{{ article.title | strip_html | escape }}">
+        </div>
+      {% endif %}
+    </a>
+
+    <span class="badge-box">Recipes & Articles</span>
+  </div>
+
+  <noscript>
+    <a class="product-link" href="{{ article_url }}" aria-label="{{ article.title | strip_html | escape }}" data-grid-link>
+      <div class="product-item__image no-js-image" style="background-image:url('{{ article.image | img_url: '540x' }}'); background-size: contain; background-position: center center; background-repeat: no-repeat;"></div>
+    </a>
+  </noscript>
+
+  <div class="product-information"
+    data-aos="fade"
+    data-aos-delay="{{ aos_image_delay }}"
+    data-aos-duration="{{ aos_text_duration }}"
+    data-aos-anchor="{{ animation_anchor }}"
+    data-product-information>
+    <a class="product-link" href="{{ article_url }}" aria-label="{{ article.title | strip_html | escape }}" data-grid-link>
+
+      <p class="product__grid__title">
+        {{ article.title | strip_html | escape }}
+      </p>
+    </a>
+  </div>
+</div>
