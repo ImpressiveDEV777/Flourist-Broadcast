@@ -229,6 +229,7 @@
             //   zapierContainer[2].click();
             // }
             // waitForPickup();
+            localStorage.setItem("postalcode", "Pickup");
             mainNav.style.display = 'block';
             mainNavMob.style.display = 'block';
             methodDropdownContainer.classList.remove('active');
@@ -322,6 +323,7 @@
             //   zapierContainer[2].click();
             // }
             // waitForPickup();
+            localStorage.setItem("postalcode", "Pickup");
             mainNav.style.display = 'block';
             mainNavMob.style.display = 'block';
             methodModalContainer.classList.remove('active');
