@@ -44,18 +44,18 @@
   }
   
   window.onload = function() {
-    // var zapierContainer = document.querySelectorAll('#storePickupApp .checkoutMethod');
+    var zapierContainer = document.querySelectorAll('#storePickupApp .checkoutMethod');
     var mthod = localStorage.getItem("method");
     
-    // var waitForInput = () => {
-    //   var deliveryGeoSearchField = document.getElementById('deliveryGeoSearchField');
-    //   if (!deliveryGeoSearchField) {
-    //     setTimeout(waitForInput, 100);
-    //     return;
-    //   }
-    //   deliveryGeoSearchField.value = localStorage.getItem('postalcode') || '';
-    //   deliveryGeoSearchField.nextElementSibling.click();            
-    // }
+    var waitForInput = () => {
+      var deliveryGeoSearchField = document.getElementById('deliveryGeoSearchField');
+      if (!deliveryGeoSearchField) {
+        setTimeout(waitForInput, 100);
+        return;
+      }
+      deliveryGeoSearchField.value = localStorage.getItem('postalcode') || '';
+      deliveryGeoSearchField.nextElementSibling.click();            
+    }
     
     // var waitForPickup = () => {
     //   var location = document.querySelector('.locations');
@@ -98,11 +98,11 @@
       var method, data;
       switch (localStorage.getItem("method")) {
         case '1':
-          // if (zapierContainer[1]) {
-          //   zapierContainer[1].click();
-          //   setTimeout((e)=>{zapierContainer[0].classList.add('disable')}, 1);
-          // }          
-          // waitForInput();
+          if (zapierContainer[1]) {
+            zapierContainer[1].click();
+            setTimeout((e)=>{zapierContainer[0].classList.add('disable')}, 1);
+          }          
+          waitForInput();
           mainNav.style.display = 'block';
           mainNavMob.style.display = 'block';
           method = M1T;
@@ -116,16 +116,16 @@
           mainNavMob.style.display = 'block';
           method = "Delivery Method";
           data = M2T;
-          // if (zapierContainer[1]) {
-          //   zapierContainer[2].click();
-          //   setTimeout((e)=>{zapierContainer[0].classList.add('disable')}, 1);
-          // }          
+          if (zapierContainer[1]) {
+            zapierContainer[2].click();
+            setTimeout((e)=>{zapierContainer[0].classList.add('disable')}, 1);
+          }          
           // waitForPickup();
           break;
         case '3':
-          // if (zapierContainer[1]) {
-          //   zapierContainer[0].click();
-          // }
+          if (zapierContainer[1]) {
+            zapierContainer[0].click();
+          }
           shippingNav.style.display = 'block';
           shippingNavMob.style.display = 'block';
           document.querySelectorAll('[data-quick-add-label]').forEach( el => {
@@ -138,7 +138,6 @@
           if (checkoutBtn) {
             cartItems.forEach((el) => {
               if (el.dataset.shipping != 1) {
-                // shipping_alert.style.display = 'block';
                 checkoutBtn.style.display = 'none';
               }
             });
@@ -149,31 +148,28 @@
       stickHeader();
     }
     
-   	// if (zapierContainer[0]) {
- 	  // zapierContainer[0].addEventListener('click', (e) => {
-    //     cartItems = document.querySelectorAll('.cart__items .cart-item');
-    //     cartItems.forEach((el) => {
-    //       if (el.dataset.shipping != 1) {
-    //         // shipping_alert.style.display = 'block';
-    //         checkoutBtn.style.display = 'none';
-    //       }
-    //     });
-	  // });
-    // }
+   	if (zapierContainer[0]) {
+ 	  zapierContainer[0].addEventListener('click', (e) => {
+        cartItems = document.querySelectorAll('.cart__items .cart-item');
+        cartItems.forEach((el) => {
+          if (el.dataset.shipping != 1) {
+            checkoutBtn.style.display = 'none';
+          }
+        });
+	  });
+    }
     
-    // if (zapierContainer[1]) {
- 	  // zapierContainer[1].addEventListener('click', (e) => {
-    //     // shipping_alert.style.display = 'none';
-    //     checkoutBtn.style.display = 'block';
-	  // });
-    // }
+    if (zapierContainer[1]) {
+ 	  zapierContainer[1].addEventListener('click', (e) => {
+        checkoutBtn.style.display = 'block';
+	  });
+    }
     
-    // if (zapierContainer[2]) {
- 	  // zapierContainer[2].addEventListener('click', (e) => {
-    //     // shipping_alert.style.display = 'none';
-    //     checkoutBtn.style.display = 'block';
-	  // });
-    // }  
+    if (zapierContainer[2]) {
+ 	  zapierContainer[2].addEventListener('click', (e) => {
+        checkoutBtn.style.display = 'block';
+	  });
+    }  
 
     if (document.getElementById('method_confirm_drop')) {
       document.getElementById('method_confirm_drop').onclick = () => {
@@ -199,10 +195,10 @@
         switch (mthd) {
           case '1':
             localStorage.setItem('postalcode', inputPostalDropdown.value);
-            // if (zapierContainer[1]) {
-            //   zapierContainer[1].click();
-            //   waitForInput();
-            // }
+            if (zapierContainer[1]) {
+              zapierContainer[1].click();
+              waitForInput();
+            }
             mainNav.style.display = 'block';
             mainNavMob.style.display = 'block';
             dtad = localStorage.getItem('postalcode');
@@ -220,14 +216,13 @@
             stickHeader();
             methodDropdownContainer.classList.remove('active');
             if (checkoutBtn) {
-              // shipping_alert.style.display = 'none';
               checkoutBtn.style.display = 'block';
             }
             break;
           case '2':
-            // if (zapierContainer[2]) {
-            //   zapierContainer[2].click();
-            // }
+            if (zapierContainer[2]) {
+              zapierContainer[2].click();
+            }
             // waitForPickup();
             localStorage.setItem("postalcode", "Pickup");
             mainNav.style.display = 'block';
@@ -240,15 +235,14 @@
             currentPostal.innerHTML = "Delivery Method: <span>" + M2T + "</span>";
             stickHeader();
             if (checkoutBtn) {
-              // shipping_alert.style.display = 'none';
               checkoutBtn.style.display = 'block';
             }
             break;
           case '3':
             localStorage.setItem("postalcode", "Shipping");
-            // if (zapierContainer[0]) {
-            //   zapierContainer[0].click();
-            // }
+            if (zapierContainer[0]) {
+              zapierContainer[0].click();
+            }
             shippingNav.style.display = 'block';
             shippingNavMob.style.display = 'block';
             document.querySelectorAll('[data-quick-add-label]').forEach( el => {
@@ -267,7 +261,6 @@
               cartItems = document.querySelectorAll('.cart__items .cart-item');
               cartItems.forEach((el) => {
                 if (el.dataset.shipping != 1) {
-                  // shipping_alert.style.display = 'block';
                   checkoutBtn.style.display = 'none';
                 }
               });
@@ -291,14 +284,14 @@
           alert(MSA);
           return;
         }
-        var dta = localStorage.getItem('postalcode');
         switch (mth) {
           case '1':
-            localStorage.setItem('postalcode', document.querySelector('#methodModal #postalcode').value);
-            // if (zapierContainer[1]) {
-            //   zapierContainer[1].click();
-            //   waitForInput();
-            // }
+            var dta = document.querySelector('#methodModal #postalcode').value;
+            localStorage.setItem('postalcode', dta);
+            if (zapierContainer[1]) {
+              zapierContainer[1].click();
+              waitForInput();
+            }
             mainNav.style.display = 'block';
             mainNavMob.style.display = 'block';
             var zip = dta.slice(0, 3);
@@ -319,9 +312,9 @@
             methodModalContainer.classList.remove('active');
             break;
           case '2':
-            // if (zapierContainer[2]) {
-            //   zapierContainer[2].click();
-            // }
+            if (zapierContainer[2]) {
+              zapierContainer[2].click();
+            }
             // waitForPickup();
             localStorage.setItem("postalcode", "Pickup");
             mainNav.style.display = 'block';
@@ -336,11 +329,16 @@
             break;
           case '3':
             localStorage.setItem("postalcode", "Shipping");
-            // if (zapierContainer[0]) {
-            //   zapierContainer[0].click();
-            // }
+            if (zapierContainer[0]) {
+              zapierContainer[0].click();
+            }
             shippingNav.style.display = 'block';
             shippingNavMob.style.display = 'block';
+            document.querySelectorAll('[data-quick-add-label]').forEach( el => {
+              if (el.dataset.tag != "Shipping") {
+                el.querySelector('small:first-child').innerText = QAE;
+              }
+            });
             methodModalContainer.classList.remove('active');
             currentPostal.innerHTML = "Delivery Method: <span>Shipping</span>";
             if (alertContainer) {

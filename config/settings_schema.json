@@ -658,18 +658,6 @@
       },
       {
         "type": "text",
-        "id": "method2_detail1_p",
-        "label": "Store1 Address",
-        "default": "3433 Commercial Street"
-      },
-      {
-        "type": "text",
-        "id": "method2_detail2_p",
-        "label": "Store2 Address",
-        "default": "859 East Hastings"
-      },
-      {
-        "type": "text",
         "id": "method3_title_p",
         "label": "Method3 Title",
         "default": "Ship Via Mail"
