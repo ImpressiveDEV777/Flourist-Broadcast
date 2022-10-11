@@ -8972,6 +8972,7 @@ form .errors {
 .announcement__bar a:hover {
   color: inherit;
   text-decoration: none;
+  font-size: calc(0.7rem * var(---font-adjust-body)) !important;
 }
 .announcement__bar .icon {
   fill: currentColor;
@@ -9020,11 +9021,13 @@ form .errors {
 }
 .announcement__text * {
   white-space: nowrap;
+  font-size: calc(0.7rem * var(---font-adjust-body)) !important;
 }
 .announcement__text a {
   position: relative;
   display: inline-block;
   color: inherit;
+  font-size: calc(0.7rem * var(---font-adjust-body)) !important;
 }
 .announcement__text a:after {
   content: "";
@@ -9054,7 +9057,7 @@ form .errors {
 .announcement__more {
   color: var(--text);
   font-family: var(---font-stack-nav);
-  font-size: calc(0.8rem * var(---font-adjust-body));
+  font-size: calc(0.7rem * var(---font-adjust-body)) !important;
 }
 
 .announcement__divider {

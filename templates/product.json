@@ -24,7 +24,8 @@
         },
         "0fd7f7fc-7db5-4505-9b80-27cfc8badb20": {
           "type": "pickup",
-          "settings": {}
+          "settings": {
+          }
         },
         "tabs": {
           "type": "tab_richtext",

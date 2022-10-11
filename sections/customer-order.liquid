@@ -56,7 +56,7 @@
           {% assign order_created_at = order.created_at | date: format: 'full_date_and_time' %}
           <p>{{ 'customer.order.date' | t: date: order_created_at }}</p>
           <p class="order-status"><span class="note">{{ 'customer.order.payment_status' | t }}:</span> <span class="status">{{ order.financial_status_label }}</span></p>
-          <p class="order-status"><span class="note">{{ 'customer.order.fulfillment_status' | t }}:</span> <span class="status">{{ order.fulfillment_status_label }}</span></p>
+<!--           <p class="order-status"><span class="note">{{ 'customer.order.fulfillment_status' | t }}:</span> <span class="status">{{ order.fulfillment_status_label }}</span></p> -->
         </div>
         <div id="OrderPayment" class="col">
           <p class="h5">{{ 'customer.order.billing_address' | t }}</p>

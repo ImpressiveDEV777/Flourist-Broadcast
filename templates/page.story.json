@@ -15,11 +15,13 @@
       "block_order": [
         "image-1-1"
       ],
-      "settings": {}
+      "settings": {
+      }
     },
     "main": {
       "type": "main-page",
-      "settings": {}
+      "settings": {
+      }
     },
     "custom-content-2": {
       "type": "section-custom-content",
@@ -45,7 +47,8 @@
         "image-2-1",
         "image-2-2"
       ],
-      "settings": {}
+      "settings": {
+      }
     },
     "custom-content-3": {
       "type": "section-custom-content",
@@ -60,7 +63,8 @@
       "block_order": [
         "text-3-1"
       ],
-      "settings": {}
+      "settings": {
+      }
     },
     "custom-content-4": {
       "type": "section-custom-content",
@@ -82,20 +86,23 @@
         "text-4-1",
         "image-4-2"
       ],
-      "settings": {}
+      "settings": {
+      }
     },
     "custom-content-5": {
       "type": "section-custom-content",
       "blocks": {
         "newsletter": {
           "type": "newsletter",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
         "newsletter"
       ],
-      "settings": {}
+      "settings": {
+      }
     }
   },
   "order": [

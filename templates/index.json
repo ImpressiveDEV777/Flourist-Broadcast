@@ -43,6 +43,26 @@
             "button_style": "hero__btn btn btn--large caps"
           }
         },
+        "1d46b08b-a2e3-486b-9340-06d837813a7c": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "bg_position": "center-center",
+            "image": "shopify:\/\/shop_images\/615A8014_b65a46de-557d-4f54-a96e-7b3d8cf63ad9.jpg",
+            "overlay_opacity": 10,
+            "overlay_color": "#000000",
+            "subheading": "ALL ORDERS OVER $80 QUALIFY!",
+            "title": "Get Free Chickpeas!",
+            "description": "",
+            "flex_align": "align--middle-left",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "SHOP NOW",
+            "link": "shopify:\/\/collections\/all-collections",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--input caps"
+          }
+        },
         "8722bab0-bbea-43f7-a003-fbc1787bd24d": {
           "type": "image",
           "settings": {
@@ -85,6 +105,7 @@
       "block_order": [
         "9d31eb7b-9991-4d2b-8bbc-9250d469d6be",
         "94849be9-4754-4ec5-8a38-293510b13dec",
+        "1d46b08b-a2e3-486b-9340-06d837813a7c",
         "8722bab0-bbea-43f7-a003-fbc1787bd24d",
         "65a0747d-9373-4a46-a377-661916e95115"
       ],

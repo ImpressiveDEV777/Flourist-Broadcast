@@ -62,10 +62,10 @@
     "enable_gift_notes": true,
     "enable_estimate_shipping": false,
     "show_free_shipping_message": false,
-    "message": "Spend ||amount|| more to get a free Sifted Red Fife sample!",
-    "free_shipping_limit": "50",
-    "upsell_product": "free-sifted-red-fife-flour",
-    "upsell_threshold": "50000",
+    "message": "Spend ||amount|| more to get a free box of Kabuli Chickpeas!",
+    "free_shipping_limit": "0",
+    "upsell_product": "free-kabuli-chickpeas",
+    "upsell_threshold": "50",
     "checkout_logo_image": "shopify:\/\/shop_images\/flourist-logo_160edd29-932b-432c-aa75-c7428c03af5b.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
@@ -186,7 +186,7 @@
           "708c3b81-4670-4536-ad6c-79522bbf0b02": {
             "type": "text",
             "settings": {
-              "text": "<p>FLAT RATE SHIPPING TO USA + CANADA| START COLLECTING <a href=\"\/pages\/rewards\" title=\"Flourist Rewards\">FLOURIST REWARDS CLUB POINTS! <\/a>| FREE LOCAL DELIVERY!<\/p>",
+              "text": "<p>FLAT RATE SHIPPING TO USA + CANADA | START COLLECTING <a href=\"\/pages\/rewards\" title=\"Flourist Rewards Club\">FLOURIST REWARDS CLUB<\/a> POINTS!  | FREE LOCAL DELIVERY!<\/p>",
               "target_url_enabled": false,
               "target_url": "",
               "target_referrer_enabled": false,
@@ -199,8 +199,8 @@
             "type": "message",
             "disabled": true,
             "settings": {
-              "show_wheel": true,
-              "message": "SPEND ||amount|| MORE TO GET A FREE SIFTED RED FIFE SAMPLE!",
+              "show_wheel": false,
+              "message": "SPEND ||amount|| MORE TO GET A FREE BOX OF CHICKPEAS!",
               "target_url_enabled": false,
               "target_url": "",
               "target_referrer_enabled": false,
@@ -279,11 +279,13 @@
         "block_order": [
           "popups-0"
         ],
-        "settings": {}
+        "settings": {
+        }
       },
       "method_popup": {
         "type": "method_popup",
-        "settings": {}
+        "settings": {
+        }
       },
       "gift-card": {
         "type": "gift-card",
@@ -293,12 +295,15 @@
         }
       }
     },
-    "content_for_index": [],
+    "content_for_index": [
+
+    ],
     "blocks": {
       "14479319785270113485": {
         "type": "shopify:\/\/apps\/store-pickup-delivery\/blocks\/app-embed\/5599aff0-8af1-473a-a372-ecd72a32b4d5",
         "disabled": false,
-        "settings": {}
+        "settings": {
+        }
       }
     }
   },
@@ -430,7 +435,8 @@
           "block_order": [
             "popups-0"
           ],
-          "settings": {}
+          "settings": {
+          }
         }
       }
     },
@@ -558,7 +564,8 @@
           "block_order": [
             "popups-0"
           ],
-          "settings": {}
+          "settings": {
+          }
         }
       }
     },
@@ -681,7 +688,8 @@
           "block_order": [
             "popups-0"
           ],
-          "settings": {}
+          "settings": {
+          }
         }
       }
     }

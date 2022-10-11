@@ -135,7 +135,7 @@
         "one": "and you have {{ count }} product in the cart",
         "other": "and you have {{ count }} products in the cart"
       },
-      "qualified_shipping_message": ""
+      "qualified_shipping_message": "You qualify for free Chickpeas! "
     },
     "shipping_calculator": {
       "estimate_shipping": "Estimate shipping",

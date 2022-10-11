@@ -2659,13 +2659,17 @@
         vcartItems.forEach((ele) => {
           if (ele.dataset.shipping != 1) {
             // document.querySelector('.no_shipping_p').style.display = 'block';
-            document.querySelector(`[name="checkout"]`).style.display = 'none';
-            flag = false;
+            if (document.querySelector(`[name="checkout"]`)) {
+              document.querySelector(`[name="checkout"]`).style.display = 'none';
+              flag = false;
+            }
           }
         });
         if (flag) {
           // document.querySelector('.no_shipping_p').style.display = 'none';
-          document.querySelector(`[name="checkout"]`).style.display = 'block';
+          if (document.querySelector(`[name="checkout"]`)) {
+            document.querySelector(`[name="checkout"]`).style.display = 'block';
+          }
         }
       }
     }
@@ -5313,7 +5317,6 @@
 
       return function (event) {
         event.dataset = this.getFormState();
-console.log(event);
         this._setIdInputValue(event.dataset.variant);
         cb(event);
       }.bind(this);

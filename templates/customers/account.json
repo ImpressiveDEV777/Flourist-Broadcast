@@ -5,7 +5,8 @@
       "blocks": {
         "account": {
           "type": "account",
-          "settings": {}
+          "settings": {
+          }
         },
         "email": {
           "type": "email",
@@ -19,7 +20,8 @@
         "account",
         "email"
       ],
-      "settings": {}
+      "settings": {
+      }
     },
     "16474699366e2a62bc": {
       "type": "custom-html",

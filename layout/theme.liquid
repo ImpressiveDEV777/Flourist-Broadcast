@@ -15,7 +15,11 @@
   <link rel="preload" href="{{ 'lazysizes.js' | asset_url }}" as="script">
   <link rel="preload" href="{{ 'vendor.js' | asset_url }}" as="script">
   <link rel="preload" href="{{ 'theme.js' | asset_url }}" as="script">
-  <link rel="preload" href="{{ 'theme.dev.css' | asset_url }}" as="style"> 
+  <link rel="preload" href="{{ 'theme.dev.css' | asset_url }}" as="style">
+
+  {% if product.tags contains 'hidden' %}
+    <meta name="robots" content="noindex,nofollow" />
+  {% endif %}
 
   {% if settings.favicon %}
     <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png" />

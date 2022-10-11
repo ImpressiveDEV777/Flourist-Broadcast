@@ -579,16 +579,19 @@
     .then(this.handleErrors)
     .then((response) => response.json())
     .then((response) => {
-      var freeGiftKey = '', freeVariantId, limitPrice;
+      var freeGiftKey = '', freeVariantId, limitPrice, classes, classProducts=[];
       if (document.querySelector('.cart-dropdown__body .cart-dropdown__message')) {
         freeVariantId = document.querySelector('.cart-dropdown__body .cart-dropdown__message').getAttribute('data-id');
         limitPrice = document.querySelector('.cart-dropdown__body .cart-dropdown__message').getAttribute('data-limit');
+        classes = document.querySelector('.cart-dropdown__body .cart-dropdown__message').getAttribute('data-classes');
       }
       if (document.querySelector('.cart')) {
         freeVariantId = document.querySelector('.cart').getAttribute('data-id');
         limitPrice = document.querySelector('.cart').getAttribute('data-limit');
       }
-      
+
+      var tmp = response.items.filter((item) => { return classes.indexOf(item['product_id']) > -1 });
+            
       for (var i=0; i<response.items.length; i++) {
         var item = response.items[i];
         if (item.variant_id == freeVariantId) {
@@ -596,29 +599,31 @@
         }
       }
       
-      if (!freeGiftKey && response.items_subtotal_price >= limitPrice * 100) {
-        document.documentElement.dispatchEvent(
-          new CustomEvent('cart:add-to-cart', {
-            bubbles: true,
-            detail: {
-              data: {
-                id: freeVariantId,
-                quantity: 1,
+      if (!tmp.length) {
+        if (!freeGiftKey && response.items_subtotal_price >= limitPrice * 100) {
+          document.documentElement.dispatchEvent(
+            new CustomEvent('cart:add-to-cart', {
+              bubbles: true,
+              detail: {
+                data: {
+                  id: freeVariantId,
+                  quantity: 1,
+                }
               }
-            }
-          })
-        );
-      }
-      if (freeGiftKey && response.items_subtotal_price < limitPrice * 100) {
-        const data = {
-          'id': freeGiftKey,
-          'quantity': 0
-        };
-        fetch(theme.routes.root + 'cart/change.js', {
-          method: 'post',
-          headers: {'Content-Type': 'application/json'},
-          body: JSON.stringify(data),
-        });
+            })
+          );
+        }
+        if (freeGiftKey && response.items_subtotal_price < limitPrice * 100) {
+          const data = {
+            'id': freeGiftKey,
+            'quantity': 0
+          };
+          fetch(theme.routes.root + 'cart/change.js', {
+            method: 'post',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify(data),
+          });
+        }
       }
     });
   };

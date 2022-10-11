@@ -5,18 +5,21 @@
       "blocks": {
         "account": {
           "type": "account",
-          "settings": {}
+          "settings": {
+          }
         },
         "email": {
           "type": "email",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
         "account",
         "email"
       ],
-      "settings": {}
+      "settings": {
+      }
     }
   },
   "order": [
