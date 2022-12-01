@@ -598,6 +598,9 @@
           freeGiftKey = item.key;
         }
       }
+
+      console.log(tmp)
+      console.log(freeVariantId)
       
       if (!tmp.length) {
         if (!freeGiftKey && response.items_subtotal_price >= limitPrice * 100) {

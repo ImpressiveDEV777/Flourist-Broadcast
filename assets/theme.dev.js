@@ -8544,7 +8544,6 @@
     }
 
     reset(clearTerms = true) {
-      console.log("rest");
       this.productWrapper.innerHTML = '';
       this.articleWrapper.innerHTML = '';
       this.append.classList.remove(selectors$q.dirtyClass);
